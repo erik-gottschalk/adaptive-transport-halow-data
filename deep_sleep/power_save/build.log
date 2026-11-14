@@ -1,0 +1,326 @@
+
+==> clean build (ENABLE_PWR_MEAS=1 DEMO_SLEEP_MODE=0)
+make: Entering directory '~/mm-iot-sdk-main/examples/adaptive_transport/targets/mm-mm8108-ekh05'
+Building for production in build
+Copying ../../../../framework/morsefirmware/mm8108b2-rl.mbin
+Compiling ../../src/remote_config.c
+Compiling ../../src/mm_app_loadconfig.c
+Compiling ../../src/mm_app_common.c
+Compiling ../../src/adaptive_transport_controller.c
+Compiling ../../src/adaptive_transport.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/main.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/stm32u5xx_hal_msp.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/stm32u5xx_hal_timebase_tim.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/stm32u5xx_it.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/system_stm32u5xx.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/ecp_alt.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/ecp_hal.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/Core/Src/ecp_curves_alt.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pka.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rng_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_gpio.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lptim.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_rcc.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_rtc.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_spi.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.c
+Compiling ../../../../framework/src/bsps/stm32cubeu5/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpuart.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_wlan.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmosal_shim_fileio.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_littlefs.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mm_logging.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_flash.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_app.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_wlan_binaries.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_os.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_core.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmhal_uart.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmosal_shim_freertos.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmosal_shim_alloc.c
+Compiling ../../../../framework/src/platforms/mm-mm8108-ekh05/mm_shims/mmosal_shim_libc_stubs.c
+Compiling ../../../../framework/src/mmconfig/mmconfig.c
+Compiling ../../../../framework/src/slip/slip.c
+Compiling ../../../../framework/src/mmutils/mmutils_wlan.c
+Compiling ../../../../framework/src/mmutils/mmbuf.c
+Compiling ../../../../framework/src/mmutils/mmcrc.c
+Compiling ../../../../framework/src/littlefs/lfs.c
+Compiling ../../../../framework/src/littlefs/lfs_util.c
+Compiling ../../../../framework/src/freertos/stream_buffer.c
+Compiling ../../../../framework/src/freertos/queue.c
+Compiling ../../../../framework/src/freertos/tasks.c
+Compiling ../../../../framework/src/freertos/event_groups.c
+Compiling ../../../../framework/src/freertos/croutine.c
+Compiling ../../../../framework/src/freertos/list.c
+Compiling ../../../../framework/src/freertos/timers.c
+Compiling ../../../../framework/src/freertos/mmiot/heap_4_mm.c
+Compiling ../../../../framework/src/freertos/mmiot/hooks.c
+Compiling ../../../../framework/src/freertos/portable/GCC/ARM_CM33_NTZ/non_secure/port.c
+Compiling ../../../../framework/src/freertos/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.c
+Compiling ../../../../framework/src/hostap/crypto_mbedtls_mm.c
+Compiling ../../../../framework/src/mbedtls/library/aes.c
+Compiling ../../../../framework/src/mbedtls/library/aria.c
+Compiling ../../../../framework/src/mbedtls/library/asn1parse.c
+Compiling ../../../../framework/src/mbedtls/library/asn1write.c
+Compiling ../../../../framework/src/mbedtls/library/base64.c
+Compiling ../../../../framework/src/mbedtls/library/bignum.c
+Compiling ../../../../framework/src/mbedtls/library/bignum_core.c
+Compiling ../../../../framework/src/mbedtls/library/bignum_mod.c
+Compiling ../../../../framework/src/mbedtls/library/bignum_mod_raw.c
+Compiling ../../../../framework/src/mbedtls/library/camellia.c
+Compiling ../../../../framework/src/mbedtls/library/ccm.c
+Compiling ../../../../framework/src/mbedtls/library/chacha20.c
+Compiling ../../../../framework/src/mbedtls/library/chachapoly.c
+Compiling ../../../../framework/src/mbedtls/library/cipher.c
+Compiling ../../../../framework/src/mbedtls/library/cipher_wrap.c
+Compiling ../../../../framework/src/mbedtls/library/cmac.c
+Compiling ../../../../framework/src/mbedtls/library/constant_time.c
+Compiling ../../../../framework/src/mbedtls/library/ctr_drbg.c
+Compiling ../../../../framework/src/mbedtls/library/debug.c
+Compiling ../../../../framework/src/mbedtls/library/des.c
+Compiling ../../../../framework/src/mbedtls/library/dhm.c
+Compiling ../../../../framework/src/mbedtls/library/ecdh.c
+Compiling ../../../../framework/src/mbedtls/library/ecdsa.c
+Compiling ../../../../framework/src/mbedtls/library/ecjpake.c
+Compiling ../../../../framework/src/mbedtls/library/ecp.c
+Compiling ../../../../framework/src/mbedtls/library/ecp_curves.c
+Compiling ../../../../framework/src/mbedtls/library/entropy.c
+Compiling ../../../../framework/src/mbedtls/library/entropy_poll.c
+Compiling ../../../../framework/src/mbedtls/library/error.c
+Compiling ../../../../framework/src/mbedtls/library/gcm.c
+Compiling ../../../../framework/src/mbedtls/library/hkdf.c
+Compiling ../../../../framework/src/mbedtls/library/hmac_drbg.c
+Compiling ../../../../framework/src/mbedtls/library/lmots.c
+Compiling ../../../../framework/src/mbedtls/library/lms.c
+Compiling ../../../../framework/src/mbedtls/library/mbedtls_platform.c
+Compiling ../../../../framework/src/mbedtls/library/md5.c
+Compiling ../../../../framework/src/mbedtls/library/md.c
+Compiling ../../../../framework/src/mbedtls/library/memory_buffer_alloc.c
+Compiling ../../../../framework/src/mbedtls/library/mps_reader.c
+Compiling ../../../../framework/src/mbedtls/library/mps_trace.c
+Compiling ../../../../framework/src/mbedtls/library/nist_kw.c
+Compiling ../../../../framework/src/mbedtls/library/oid.c
+Compiling ../../../../framework/src/mbedtls/library/padlock.c
+Compiling ../../../../framework/src/mbedtls/library/pem.c
+Compiling ../../../../framework/src/mbedtls/library/pk.c
+Compiling ../../../../framework/src/mbedtls/library/pk_ecc.c
+Compiling ../../../../framework/src/mbedtls/library/pkcs12.c
+Compiling ../../../../framework/src/mbedtls/library/pkcs5.c
+Compiling ../../../../framework/src/mbedtls/library/pkcs7.c
+Compiling ../../../../framework/src/mbedtls/library/pkparse.c
+Compiling ../../../../framework/src/mbedtls/library/pk_wrap.c
+Compiling ../../../../framework/src/mbedtls/library/pkwrite.c
+Compiling ../../../../framework/src/mbedtls/library/platform.c
+Compiling ../../../../framework/src/mbedtls/library/platform_util.c
+Compiling ../../../../framework/src/mbedtls/library/poly1305.c
+Compiling ../../../../framework/src/mbedtls/library/ripemd160.c
+Compiling ../../../../framework/src/mbedtls/library/rsa_alt_helpers.c
+Compiling ../../../../framework/src/mbedtls/library/rsa.c
+Compiling ../../../../framework/src/mbedtls/library/sha1.c
+Compiling ../../../../framework/src/mbedtls/library/sha256.c
+Compiling ../../../../framework/src/mbedtls/library/sha512.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_cache.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_ciphersuites.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_client.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_debug_helpers_generated.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_msg.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_ticket.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls12_client.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls12_server.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls13_client.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls13_generic.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls13_keys.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls13_server.c
+Compiling ../../../../framework/src/mbedtls/library/ssl_tls.c
+Compiling ../../../../framework/src/mbedtls/library/threading.c
+Compiling ../../../../framework/src/mbedtls/library/version.c
+Compiling ../../../../framework/src/mbedtls/library/version_features.c
+Compiling ../../../../framework/src/mbedtls/library/x509.c
+Compiling ../../../../framework/src/mbedtls/library/x509_create.c
+Compiling ../../../../framework/src/mbedtls/library/x509_crl.c
+Compiling ../../../../framework/src/mbedtls/library/x509_crt.c
+Compiling ../../../../framework/src/mbedtls/library/x509_csr.c
+Compiling ../../../../framework/src/mbedtls/library/x509write_crt.c
+Compiling ../../../../framework/src/mbedtls/library/x509write_csr.c
+Compiling ../../../../framework/src/mbedtls/library/net_lwip.c
+Compiling ../../../../framework/src/mmipal/lwip/mmipal_lwip.c
+Compiling ../../../../framework/src/mmipal/lwip/mmnetif.c
+Compiling ../../../../framework/src/mmregdb/mmregdb.c
+Compiling ../../../../framework/src/mmpktmem/mmpktmem_static.c
+Compiling ../../../../framework/src/lwip/port/arch/sys_arch.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_asn1.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_core.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_icmp.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_interfaces.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_ip.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_snmp.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_system.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_tcp.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_mib2_udp.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_msg.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_netconn.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_pbuf_stream.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_raw.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_scalar.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_snmpv2_framework.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_snmpv2_usm.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_table.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_threadsync.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmp_traps.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmpv3.c
+Compiling ../../../../framework/src/lwip/src/apps/snmp/snmpv3_mbedtls.c
+Compiling ../../../../framework/src/lwip/src/apps/netbiosns/netbiosns.c
+Compiling ../../../../framework/src/lwip/src/apps/mdns/mdns.c
+Compiling ../../../../framework/src/lwip/src/apps/sntp/sntp.c
+Compiling ../../../../framework/src/lwip/src/apps/lwiperf/lwiperf.c
+Compiling ../../../../framework/src/lwip/src/apps/mqtt/mqtt.c
+Compiling ../../../../framework/src/lwip/src/apps/smtp/smtp.c
+Compiling ../../../../framework/src/lwip/src/apps/altcp_tls/altcp_tls_mbedtls.c
+Compiling ../../../../framework/src/lwip/src/apps/altcp_tls/altcp_tls_mbedtls_mem.c
+Compiling ../../../../framework/src/lwip/src/apps/http/http_client.c
+Compiling ../../../../framework/src/lwip/src/apps/http/httpd.c
+Compiling ../../../../framework/src/lwip/src/apps/http/fs.c
+Compiling ../../../../framework/src/lwip/src/netif/ethernet.c
+Compiling ../../../../framework/src/lwip/src/api/api_lib.c
+Compiling ../../../../framework/src/lwip/src/api/api_msg.c
+Compiling ../../../../framework/src/lwip/src/api/err.c
+Compiling ../../../../framework/src/lwip/src/api/if_api.c
+Compiling ../../../../framework/src/lwip/src/api/netbuf.c
+Compiling ../../../../framework/src/lwip/src/api/netdb.c
+Compiling ../../../../framework/src/lwip/src/api/netifapi.c
+Compiling ../../../../framework/src/lwip/src/api/sockets.c
+Compiling ../../../../framework/src/lwip/src/api/tcpip.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/dhcp6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/ethip6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/icmp6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/inet6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/ip6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/ip6_addr.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/ip6_frag.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/mld6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv6/nd6.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/acd.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/autoip.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/dhcp.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/etharp.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/icmp.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/igmp.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/ip4.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/ip4_addr.c
+Compiling ../../../../framework/src/lwip/src/core/ipv4/ip4_frag.c
+Compiling ../../../../framework/src/lwip/src/core/altcp.c
+Compiling ../../../../framework/src/lwip/src/core/altcp_alloc.c
+Compiling ../../../../framework/src/lwip/src/core/altcp_tcp.c
+Compiling ../../../../framework/src/lwip/src/core/def.c
+Compiling ../../../../framework/src/lwip/src/core/dns.c
+Compiling ../../../../framework/src/lwip/src/core/inet_chksum.c
+Compiling ../../../../framework/src/lwip/src/core/init.c
+Compiling ../../../../framework/src/lwip/src/core/ip.c
+Compiling ../../../../framework/src/lwip/src/core/mem.c
+Compiling ../../../../framework/src/lwip/src/core/memp.c
+Compiling ../../../../framework/src/lwip/src/core/netif.c
+Compiling ../../../../framework/src/lwip/src/core/pbuf.c
+Compiling ../../../../framework/src/lwip/src/core/raw.c
+Compiling ../../../../framework/src/lwip/src/core/stats.c
+Compiling ../../../../framework/src/lwip/src/core/sys.c
+Compiling ../../../../framework/src/lwip/src/core/tcp.c
+Compiling ../../../../framework/src/lwip/src/core/tcp_in.c
+Compiling ../../../../framework/src/lwip/src/core/tcp_out.c
+Compiling ../../../../framework/src/lwip/src/core/timeouts.c
+Compiling ../../../../framework/src/lwip/src/core/udp.c
+Assembling ../../../../framework/src/platforms/mm-mm8108-ekh05/bsp/startup_stm32u585VIT6.s
+Linking build/adaptive_transport.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:      261816 B       768 KB     33.29%
+           SRAM4:           0 B        16 KB      0.00%
+      BOOTLOADER:           8 B        16 KB      0.05%
+          CONFIG:           0 B        16 KB      0.00%
+           FLASH:      832772 B      1120 KB     72.61%
+      FILESYSTEM:           0 B       896 KB      0.00%
+make: Leaving directory '~/mm-iot-sdk-main/examples/adaptive_transport/targets/mm-mm8108-ekh05'
+
+==> flashing adaptive_transport.elf
+xPack Open On-Chip Debugger 0.12.0+dev-01312-g18281b0c4-dirty (2023-09-04-22:31)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+1
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+Warn : The selected adapter does not support debugging this device in secure mode
+Info : clock speed 500 kHz
+Info : STLINK V3J8M3B5S1 (API v3) VID:PID 0483:374F
+Info : Target voltage: 0.000000
+Error: target voltage may be too low for reliable debugging
+Info : [stm32u585.cpu] Cortex-M33 r0p4 processor detected
+Info : [stm32u585.cpu] target has 8 breakpoints, 4 watchpoints
+Info : starting gdb server for stm32u585.cpu on 3333
+Info : Listening on port 3333 for gdb connections
+CPU in Non-Secure state
+[stm32u585.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0xf9000000 pc: 0x080303f8 msp: 0x200c0000
+Info : Unable to match requested speed 4000 kHz, using 3300 kHz
+Info : Unable to match requested speed 4000 kHz, using 3300 kHz
+** Programming Started **
+Info : device idcode = 0x30016482 (STM32U57/U58xx - Rev 'unknown' : 0x3001)
+Info : TZEN = 0 : TrustZone disabled by option bytes
+Info : RDP level 0 (0xAA)
+Info : flash size = 2048 KiB
+Info : flash mode : dual-bank
+Info : Flash write discontinued at 0x08000008, next section at 0x08008000
+Info : Padding image section 0 at 0x08000008 with 8 bytes (bank write end alignment)
+Warn : Adding extra erase range, 0x08000010 .. 0x08001fff
+Info : Padding image section 2 at 0x080d3504 with 12 bytes (bank write end alignment)
+Warn : Adding extra erase range, 0x080d3510 .. 0x080d3fff
+** Programming Finished **
+** Verify Started **
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+
+==> done
+built:      2026-11-04 02:26:19 CET
+git_commit: 373d8b46 (clean)
+make_vars:  ENABLE_PWR_MEAS=1 DEMO_SLEEP_MODE=0
+elf_md5:    f8464ac0e5cdfb5616391f98b06bb33f
+source flags:
+  TCP_REPLY_TIMEOUT_MS 3000
+  DEMO_PACKET_USE_TCP 1
+  DEMO_TCP_PERSISTENT_SOCKET 0
+  DEMO_TCP_WAIT_REPLY 0
+  DEMO_TCP_DEFER_REPLY 0
+  DEMO_TCP_HOLD_FOR_REPLY 1
+  TCP_REPLY_HOLD_MS 60000
+  DEMO_USE_ADAPTIVE_TRANSPORT 1
+  DEMO_USE_REMOTE_CONFIG 1
+  DEMO_SEND_INTERVAL_S 1
+  DEMO_USE_TWT 0
+  DEMO_SLEEP_MODE 0
+  DEMO_SLEEP_SETTLE_MAX_MS 3000
+  DEMO_SLEEP_UDP_TX_MAX_MS 300
+  DEMO_USE_TX_POWER_OVERRIDE 0
+  DEMO_TX_POWER_OVERRIDE_DBM 3
+  DEMO_PAYLOAD_LEN 32
+  DEMO_UDP_RAW_FRAME 1
+flashed:    2026-11-04 02:26:27 CET

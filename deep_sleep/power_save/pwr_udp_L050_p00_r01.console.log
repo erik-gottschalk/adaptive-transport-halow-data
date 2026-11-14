@@ -1,0 +1,163 @@
+2026-11-04T02:26:47 
+2026-11-04T02:26:47 Note: This firmware has been built with debug in stop mode enabled.
+2026-11-04T02:26:47 This will impact power consumption and should be disabled for production firmware.
+2026-11-04T02:26:47 
+2026-11-04T02:26:47 
+2026-11-04T02:26:47 Adaptive Transport Example (Built Nov  4 2026 02:26:18)
+2026-11-04T02:26:47 
+2026-11-04T02:26:48 -----------------------------------
+2026-11-04T02:26:48   HW Version:              MM-MM8108-EKH05
+2026-11-04T02:26:48   BCF API version:         13.1.0
+2026-11-04T02:26:48   BCF build version:       f094c89b ee7bb6f118
+2026-11-04T02:26:48   BCF board description:   {"module": "mm8108-mf15457", "s
+2026-11-04T02:26:48   Morselib version:        2.13.1
+2026-11-04T02:26:48   Morse firmware version:  2.0.0
+2026-11-04T02:26:48   Morse chip ID:           0x0809
+2026-11-04T02:26:48   Morse chip name:         MM8108B2
+2026-11-04T02:26:48 -----------------------------------
+2026-11-04T02:26:48 Initialize IPv4 using DHCP...
+2026-11-04T02:26:48 Morse LwIP interface initialised.
+2026-11-04T02:26:48 Attempting to connect to REDACTED-SSID with passphrase REDACTED-PASSPHRASE
+2026-11-04T02:26:48 This may take some time (~10 seconds)
+2026-11-04T02:26:50 WLAN STA connecting
+2026-11-04T02:26:51 WLAN STA connected
+2026-11-04T02:26:51 Morse STA interface up with MAC address 0c:bf:74:00:1f:ed
+2026-11-04T02:26:51       4141 NetIf Link status DOWN
+2026-11-04T02:26:53       5197 NetIf Link status UP
+2026-11-04T02:26:53 DNS server 0: 192.168.12.1
+2026-11-04T02:26:53 Link is up. Time: 5197 ms, IP: 192.168.12.149, Netmask: 255.255.255.0, Gateway: 192.168.12.1, DNS server 0: 192.168.12.1
+2026-11-04T02:26:53 
+2026-11-04T02:26:54 Remote config: applied server-provided overrides from 192.0.2.1:64016 (347 bytes)
+2026-11-04T02:26:54 Send interval 10000 ms
+2026-11-04T02:26:54 ATC: init x=50 L=0.0500 N0=50 calibration_packets=10 use_a_L=0 use_change_detection=1
+2026-11-04T02:26:54 ATC: estimator use_time_estimator=1 est_half_life=20.0 age_half_life=20.0 age_target_factor=2.00 debt_horizon=250.0 debt_credit=0.0 debt_per_class=1 random_probe=1
+2026-11-04T02:26:54 ATC: loss debt horizon=250 credit=0 per_class=1 tcp_failures=0
+2026-11-04T02:26:54 ATC: probe random_probe=1 (UDP floor 1/x=0.0200)
+2026-11-04T02:26:54 ATC: reports cumulative=0
+2026-11-04T02:26:54 UDP socket connected to 192.0.2.1:64015
+2026-11-04T02:26:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=0)
+2026-11-04T02:27:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=1)
+2026-11-04T02:27:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=2)
+2026-11-04T02:27:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=3)
+2026-11-04T02:27:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=4)
+2026-11-04T02:27:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=5)
+2026-11-04T02:27:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=6)
+2026-11-04T02:28:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=7)
+2026-11-04T02:28:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=8)
+2026-11-04T02:28:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=9)
+2026-11-04T02:28:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=10)
+2026-11-04T02:28:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=11)
+2026-11-04T02:28:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=12)
+2026-11-04T02:29:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=13)
+2026-11-04T02:29:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=14)
+2026-11-04T02:29:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=15)
+2026-11-04T02:29:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=16)
+2026-11-04T02:29:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=17)
+2026-11-04T02:29:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=18)
+2026-11-04T02:30:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=19)
+2026-11-04T02:30:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=20)
+2026-11-04T02:30:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=21)
+2026-11-04T02:30:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=22)
+2026-11-04T02:30:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=23)
+2026-11-04T02:30:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=24)
+2026-11-04T02:31:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=25)
+2026-11-04T02:31:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=26)
+2026-11-04T02:31:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=27)
+2026-11-04T02:31:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=28)
+2026-11-04T02:31:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=29)
+2026-11-04T02:31:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=30)
+2026-11-04T02:32:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=31)
+2026-11-04T02:32:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=32)
+2026-11-04T02:32:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=33)
+2026-11-04T02:32:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=34)
+2026-11-04T02:32:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=35)
+2026-11-04T02:32:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=36)
+2026-11-04T02:33:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=37)
+2026-11-04T02:33:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=38)
+2026-11-04T02:33:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=39)
+2026-11-04T02:33:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=40)
+2026-11-04T02:33:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=41)
+2026-11-04T02:33:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=42)
+2026-11-04T02:34:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=43)
+2026-11-04T02:34:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=44)
+2026-11-04T02:34:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=45)
+2026-11-04T02:34:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=46)
+2026-11-04T02:34:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=47)
+2026-11-04T02:34:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=48)
+2026-11-04T02:35:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=49)
+2026-11-04T02:35:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=50)
+2026-11-04T02:35:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=51)
+2026-11-04T02:35:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=52)
+2026-11-04T02:35:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=53)
+2026-11-04T02:35:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=54)
+2026-11-04T02:36:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=55)
+2026-11-04T02:36:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=56)
+2026-11-04T02:36:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=57)
+2026-11-04T02:36:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=58)
+2026-11-04T02:36:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=59)
+2026-11-04T02:36:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=60)
+2026-11-04T02:37:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=61)
+2026-11-04T02:37:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=62)
+2026-11-04T02:37:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=63)
+2026-11-04T02:37:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=64)
+2026-11-04T02:37:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=65)
+2026-11-04T02:37:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=66)
+2026-11-04T02:38:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=67)
+2026-11-04T02:38:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=68)
+2026-11-04T02:38:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=69)
+2026-11-04T02:38:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=70)
+2026-11-04T02:38:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=71)
+2026-11-04T02:38:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=72)
+2026-11-04T02:39:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=73)
+2026-11-04T02:39:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=74)
+2026-11-04T02:39:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=75)
+2026-11-04T02:39:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=76)
+2026-11-04T02:39:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=77)
+2026-11-04T02:39:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=78)
+2026-11-04T02:40:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=79)
+2026-11-04T02:40:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=80)
+2026-11-04T02:40:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=81)
+2026-11-04T02:40:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=82)
+2026-11-04T02:40:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=83)
+2026-11-04T02:40:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=84)
+2026-11-04T02:41:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=85)
+2026-11-04T02:41:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=86)
+2026-11-04T02:41:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=87)
+2026-11-04T02:41:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=88)
+2026-11-04T02:41:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=89)
+2026-11-04T02:41:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=90)
+2026-11-04T02:42:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=91)
+2026-11-04T02:42:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=92)
+2026-11-04T02:42:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=93)
+2026-11-04T02:42:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=94)
+2026-11-04T02:42:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=95)
+2026-11-04T02:42:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=96)
+2026-11-04T02:43:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=97)
+2026-11-04T02:43:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=98)
+2026-11-04T02:43:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=99)
+2026-11-04T02:43:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=100)
+2026-11-04T02:43:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=101)
+2026-11-04T02:43:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=102)
+2026-11-04T02:44:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=103)
+2026-11-04T02:44:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=104)
+2026-11-04T02:44:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=105)
+2026-11-04T02:44:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=106)
+2026-11-04T02:44:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=107)
+2026-11-04T02:44:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=108)
+2026-11-04T02:45:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=109)
+2026-11-04T02:45:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=110)
+2026-11-04T02:45:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=111)
+2026-11-04T02:45:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=112)
+2026-11-04T02:45:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=113)
+2026-11-04T02:45:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=114)
+2026-11-04T02:46:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=115)
+2026-11-04T02:46:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=116)
+2026-11-04T02:46:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=117)
+2026-11-04T02:46:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=118)
+2026-11-04T02:46:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=119)
+2026-11-04T02:46:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=120)
+2026-11-04T02:47:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=121)
+2026-11-04T02:47:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=122)
+2026-11-04T02:47:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=123)
+2026-11-04T02:47:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=124)
+2026-11-04T02:47:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=125)

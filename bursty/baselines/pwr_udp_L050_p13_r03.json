@@ -1,0 +1,221 @@
+{
+  "basename": "pwr_udp_L050_p13_r03",
+  "protocol": "udp",
+  "L": 0.05,
+  "replicate": 3,
+  "schedule": [
+    [
+      130,
+      13
+    ],
+    [
+      1299,
+      2
+    ],
+    [
+      421,
+      4
+    ],
+    [
+      43,
+      20
+    ],
+    [
+      152,
+      4
+    ],
+    [
+      949,
+      11
+    ],
+    [
+      89,
+      1
+    ],
+    [
+      596,
+      4
+    ],
+    [
+      112,
+      20
+    ],
+    [
+      918,
+      4
+    ],
+    [
+      1293,
+      1
+    ],
+    [
+      531,
+      9
+    ],
+    [
+      234,
+      17
+    ],
+    [
+      563,
+      1
+    ],
+    [
+      35,
+      20
+    ],
+    [
+      1487,
+      1
+    ],
+    [
+      60,
+      5
+    ],
+    [
+      899,
+      3
+    ],
+    [
+      112,
+      20
+    ],
+    [
+      1508,
+      3
+    ],
+    [
+      220,
+      4
+    ],
+    [
+      60,
+      2
+    ],
+    [
+      518,
+      4
+    ],
+    [
+      239,
+      2
+    ],
+    [
+      222,
+      4
+    ],
+    [
+      308,
+      1
+    ],
+    [
+      1402,
+      5
+    ]
+  ],
+  "burst": 3.0,
+  "t_start": "2026-10-28T04:20:51",
+  "t_end": "2026-10-28T08:26:09",
+  "tz": "CET",
+  "capture_start_utc": "2026-10-28T03:26:09.587748+00:00",
+  "capture_end_utc": "2026-10-28T07:26:09.809382+00:00",
+  "clock_skew_s": -0.050810813903808594,
+  "measurement_mode": "AMPERE_MODE",
+  "tap": "halow",
+  "tap_voltage_mV": 3300,
+  "baseline_subtraction_required": false,
+  "baseline_subtraction_note": "This capture is from a current tap dedicated to the HaLow module, not the whole board -- unlike the earlier ESP32-based dataset (see esp-based-code/), there is no board baseline current mixed into these samples, so no baseline estimate/subtraction step is needed before computing energy figures from this CSV.",
+  "digital_channels": [
+    "D0",
+    "D1"
+  ],
+  "protocol_pin_encoding": {
+    "TCP": [
+      1,
+      0
+    ],
+    "UDP": [
+      0,
+      1
+    ],
+    "TCP+reply": [
+      1,
+      1
+    ],
+    "note": "(D0, D1) asserted together for the duration of each send call (through the blocking reply wait too, for TCP+reply), (0, 0) between sends -- see adaptive_transport.c's SET_DEBUG_PROTO. Requires ENABLE_PWR_MEAS=1 and D1 (MM_DEBUG_2/PA0) wired to the PPK2's second digital input; a capture from before this pin existed has protocol_pin_encoding absent and a D0-only CSV."
+  },
+  "warmup_s": 300,
+  "settle_s": 10,
+  "reset_performed": true,
+  "samples_in": 1440020000,
+  "samples_out": 144002000,
+  "decimate_factor": 10,
+  "dt_ms": 0.1,
+  "measured_sample_rate_hz": 100001.38888888889,
+  "console_name": "pwr_udp_L050_p13_r03.console.log",
+  "console_lines": 14748,
+  "server_bytes": 6306462,
+  "git_commit": "9efe33b5",
+  "git_dirty": "dirty",
+  "source_L": 0.025,
+  "source_flags": {
+    "DEMO_PACKET_USE_TCP": "1",
+    "DEMO_TCP_PERSISTENT_SOCKET": "0",
+    "DEMO_TCP_WAIT_REPLY": "0",
+    "DEMO_TCP_DEFER_REPLY": "0",
+    "DEMO_USE_ADAPTIVE_TRANSPORT": "1",
+    "DEMO_SEND_INTERVAL_S": "1",
+    "DEMO_USE_TWT": "0",
+    "DEMO_USE_TX_POWER_OVERRIDE": "0",
+    "DEMO_PAYLOAD_LEN": "32",
+    "DEMO_USE_REMOTE_CONFIG": "1",
+    "DEMO_UDP_RAW_FRAME": "1",
+    "DEMO_TCP_HOLD_FOR_REPLY": "1"
+  },
+  "source_mismatches": [
+    "source L = 0.025, but --L 0.05 was requested",
+    "source DEMO_PACKET_USE_TCP='1', but --protocol udp expects '0'",
+    "source DEMO_USE_ADAPTIVE_TRANSPORT='1', but --protocol udp expects '0'",
+    "source DEMO_UDP_RAW_FRAME='1', but --protocol udp expects '0'"
+  ],
+  "tcp_persistent": false,
+  "remote_config_pushed": {
+    "DEMO_USE_ADAPTIVE_TRANSPORT": false,
+    "DEMO_PACKET_USE_TCP": false,
+    "DEMO_TCP_WAIT_REPLY": false,
+    "ATC_X": 50,
+    "ATC_L": 0.05,
+    "ATC_N0": 50,
+    "ATC_EPS": 1e-09,
+    "ATC_CALIBRATION_PACKETS": 10,
+    "ATC_USE_A_L": false,
+    "ATC_USE_CHANGE_DETECTION": true,
+    "MAX_PACKETS": 0,
+    "SEND_INTERVAL_MS": 1000,
+    "MIX_L": "",
+    "MIX_SHARE": ""
+  },
+  "remote_config_confirmed": {
+    "DEMO_USE_ADAPTIVE_TRANSPORT": "0",
+    "DEMO_PACKET_USE_TCP": "0",
+    "DEMO_TCP_WAIT_REPLY": "0",
+    "ATC_X": "50",
+    "ATC_L": "0.05",
+    "ATC_N0": "50",
+    "ATC_EPS": "1e-09",
+    "ATC_CALIBRATION_PACKETS": "10",
+    "ATC_USE_A_L": "0",
+    "ATC_USE_CHANGE_DETECTION": "1",
+    "ATC_DEBT_R": "250",
+    "ATC_DEBT_CREDIT": "0",
+    "ATC_DEBT_PER_CLASS": "1",
+    "ATC_RANDOM_PROBE": "1",
+    "ATC_CUMULATIVE": "0",
+    "MAX_PACKETS": "0",
+    "SEND_INTERVAL_MS": "1000",
+    "MIX_L": "",
+    "MIX_SHARE": ""
+  },
+  "note": "Firmware was NOT rebuilt or reflashed for this run -- it is assumed already flashed (e.g. via `make reprogram`) with DEMO_USE_REMOTE_CONFIG=1. L/protocol/atc-*/max-packets above are pushed live to the DUT via server.py's --remote-config on every reset (see remote_config_pushed and the module docstring). remote_config_confirmed is the ground truth for whether that actually took effect this replicate (None means no confirmation was found in the fetched server log; cross-check the captured console log's 'Remote config:' and 'ATC: init' lines, if present). git_commit/git_dirty describe the *source tree*, not necessarily the flashed binary. If remote_config_pushed.MAX_PACKETS > 0, confirm the DUT actually reached it (rather than this capture's --duration/--schedule being too short and silently truncating the run) by checking the captured console log for 'Sent max_packets=' -- its absence means the run was cut off mid-stream, not that MAX_PACKETS failed to apply.",
+  "argv": "examples/adaptive_transport/scripts/run_power_experiment.py --protocol udp --L 0.05 --schedule 130:13,1299:2,421:4,43:20,152:4,949:11,89:1,596:4,112:20,918:4,1293:1,531:9,234:17,563:1,35:20,1487:1,60:5,899:3,112:20,1508:3,220:4,60:2,518:4,239:2,222:4,308:1,1402:5 --burst 3 --replicates 3 --console-port /dev/serial/by-id/usb-STMicroelectronics_STLINK-V3_001800393234510333353533-if02 --ppk2-port /dev/serial/by-id/usb-Nordic_Semiconductor_PPK2_FE023446A3B5-if01 --ap-host 10.51.33.147 --server-host 192.0.2.1 --server-user root --out-dir examples/adaptive_transport/scripts/eval/measurement_data/pwr_runs_ge_regime_s1"
+}

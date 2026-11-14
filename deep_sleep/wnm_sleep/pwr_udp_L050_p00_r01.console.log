@@ -1,0 +1,274 @@
+2026-11-04T01:21:50 SLEEP: settle 60 ms, udp tx 194 ms, enter 59 ms, wake 2635 ms
+2026-11-04T01:21:50 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=1)
+2026-11-04T01:21:50 
+2026-11-04T01:21:50 Note: This firmware has been built with debug in stop mode enabled.
+2026-11-04T01:21:50 This will impact power consumption and should be disabled for production firmware.
+2026-11-04T01:21:50 
+2026-11-04T01:21:50 
+2026-11-04T01:21:50 Adaptive Transport Example (Built Nov  4 2026 01:21:20)
+2026-11-04T01:21:50 
+2026-11-04T01:21:51 -----------------------------------
+2026-11-04T01:21:51   HW Version:              MM-MM8108-EKH05
+2026-11-04T01:21:51   BCF API version:         13.1.0
+2026-11-04T01:21:51   BCF build version:       f094c89b ee7bb6f118
+2026-11-04T01:21:51   BCF board description:   {"module": "mm8108-mf15457", "s
+2026-11-04T01:21:51   Morselib version:        2.13.1
+2026-11-04T01:21:51   Morse firmware version:  2.0.0
+2026-11-04T01:21:51   Morse chip ID:           0x0809
+2026-11-04T01:21:51   Morse chip name:         MM8108B2
+2026-11-04T01:21:51 -----------------------------------
+2026-11-04T01:21:51 Initialize IPv4 using DHCP...
+2026-11-04T01:21:51 Morse LwIP interface initialised.
+2026-11-04T01:21:51 Attempting to connect to REDACTED-SSID with passphrase REDACTED-PASSPHRASE
+2026-11-04T01:21:51 This may take some time (~10 seconds)
+2026-11-04T01:21:53 WLAN STA connecting
+2026-11-04T01:21:55 WLAN STA connected
+2026-11-04T01:21:55 Morse STA interface up with MAC address 0c:bf:74:00:1f:ed
+2026-11-04T01:21:55       4252 NetIf Link status DOWN
+2026-11-04T01:21:56       5369 NetIf Link status UP
+2026-11-04T01:21:56 DNS server 0: 192.168.12.1
+2026-11-04T01:21:56 Link is up. Time: 5369 ms, IP: 192.168.12.149, Netmask: 255.255.255.0, Gateway: 192.168.12.1, DNS server 0: 192.168.12.1
+2026-11-04T01:21:56 
+2026-11-04T01:21:56 Remote config: applied server-provided overrides from 192.0.2.1:64016 (347 bytes)
+2026-11-04T01:21:56 Send interval 10000 ms
+2026-11-04T01:21:56 ATC: init x=50 L=0.0500 N0=50 calibration_packets=10 use_a_L=0 use_change_detection=1
+2026-11-04T01:21:56 ATC: estimator use_time_estimator=1 est_half_life=20.0 age_half_life=20.0 age_target_factor=2.00 debt_horizon=250.0 debt_credit=0.0 debt_per_class=1 random_probe=1
+2026-11-04T01:21:56 ATC: loss debt horizon=250 credit=0 per_class=1 tcp_failures=0
+2026-11-04T01:21:56 ATC: probe random_probe=1 (UDP floor 1/x=0.0200)
+2026-11-04T01:21:56 ATC: reports cumulative=0
+2026-11-04T01:21:56 UDP socket connected to 192.0.2.1:64015
+2026-11-04T01:21:56 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=0)
+2026-11-04T01:22:09 SLEEP: settle 70 ms, udp tx 296 ms, enter 58 ms, wake 2717 ms
+2026-11-04T01:22:09 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=1)
+2026-11-04T01:22:19 SLEEP: settle 0 ms, udp tx 166 ms, enter 60 ms, wake 673 ms
+2026-11-04T01:22:19 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=2)
+2026-11-04T01:22:30 SLEEP: settle 0 ms, udp tx 168 ms, enter 59 ms, wake 675 ms
+2026-11-04T01:22:30 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=3)
+2026-11-04T01:22:41 SLEEP: settle 0 ms, udp tx 185 ms, enter 60 ms, wake 675 ms
+2026-11-04T01:22:41 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=4)
+2026-11-04T01:22:51 SLEEP: settle 0 ms, udp tx 201 ms, enter 60 ms, wake 676 ms
+2026-11-04T01:22:51 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=5)
+2026-11-04T01:23:02 SLEEP: settle 0 ms, udp tx 175 ms, enter 59 ms, wake 675 ms
+2026-11-04T01:23:02 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=6)
+2026-11-04T01:23:13 SLEEP: settle 0 ms, udp tx 174 ms, enter 60 ms, wake 674 ms
+2026-11-04T01:23:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=7)
+2026-11-04T01:23:23 SLEEP: settle 0 ms, udp tx 169 ms, enter 60 ms, wake 619 ms
+2026-11-04T01:23:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=8)
+2026-11-04T01:23:34 SLEEP: settle 0 ms, udp tx 216 ms, enter 59 ms, wake 664 ms
+2026-11-04T01:23:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=9)
+2026-11-04T01:23:44 SLEEP: settle 0 ms, udp tx 204 ms, enter 68 ms, wake 659 ms
+2026-11-04T01:23:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=10)
+2026-11-04T01:23:55 SLEEP: settle 0 ms, udp tx 197 ms, enter 91 ms, wake 665 ms
+2026-11-04T01:23:55 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=11)
+2026-11-04T01:24:06 SLEEP: settle 0 ms, udp tx 194 ms, enter 59 ms, wake 644 ms
+2026-11-04T01:24:06 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=12)
+2026-11-04T01:24:16 SLEEP: settle 0 ms, udp tx 202 ms, enter 60 ms, wake 672 ms
+2026-11-04T01:24:16 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=13)
+2026-11-04T01:24:27 SLEEP: settle 0 ms, udp tx 176 ms, enter 59 ms, wake 704 ms
+2026-11-04T01:24:27 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=14)
+2026-11-04T01:24:38 SLEEP: settle 0 ms, udp tx 190 ms, enter 60 ms, wake 773 ms
+2026-11-04T01:24:38 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=15)
+2026-11-04T01:24:48 SLEEP: settle 0 ms, udp tx 146 ms, enter 141 ms, wake 713 ms
+2026-11-04T01:24:48 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=16)
+2026-11-04T01:24:59 SLEEP: settle 0 ms, udp tx 216 ms, enter 60 ms, wake 677 ms
+2026-11-04T01:24:59 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=17)
+2026-11-04T01:25:10 SLEEP: settle 0 ms, udp tx 210 ms, enter 59 ms, wake 693 ms
+2026-11-04T01:25:10 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=18)
+2026-11-04T01:25:20 SLEEP: settle 0 ms, udp tx 192 ms, enter 60 ms, wake 703 ms
+2026-11-04T01:25:20 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=19)
+2026-11-04T01:25:31 SLEEP: settle 0 ms, udp tx 300 ms (NOT confirmed), enter 30 ms, wake 704 ms
+2026-11-04T01:25:31 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=20)
+2026-11-04T01:25:42 SLEEP: settle 0 ms, udp tx 186 ms, enter 60 ms, wake 682 ms
+2026-11-04T01:25:42 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=21)
+2026-11-04T01:25:52 SLEEP: settle 0 ms, udp tx 186 ms, enter 100 ms, wake 703 ms
+2026-11-04T01:25:52 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=22)
+2026-11-04T01:26:03 SLEEP: settle 0 ms, udp tx 206 ms, enter 59 ms, wake 668 ms
+2026-11-04T01:26:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=23)
+2026-11-04T01:26:13 SLEEP: settle 0 ms, udp tx 194 ms, enter 76 ms, wake 629 ms
+2026-11-04T01:26:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=24)
+2026-11-04T01:26:24 SLEEP: settle 0 ms, udp tx 190 ms, enter 60 ms, wake 660 ms
+2026-11-04T01:26:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=25)
+2026-11-04T01:26:35 SLEEP: settle 0 ms, udp tx 188 ms, enter 60 ms, wake 676 ms
+2026-11-04T01:26:35 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=26)
+2026-11-04T01:26:45 SLEEP: settle 0 ms, udp tx 240 ms, enter 89 ms, wake 693 ms
+2026-11-04T01:26:45 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=27)
+2026-11-04T01:26:56 SLEEP: settle 0 ms, udp tx 34 ms, enter 81 ms, wake 710 ms
+2026-11-04T01:26:56 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=28)
+2026-11-04T01:27:07 SLEEP: settle 0 ms, udp tx 187 ms, enter 87 ms, wake 658 ms
+2026-11-04T01:27:07 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=29)
+2026-11-04T01:27:17 SLEEP: settle 0 ms, udp tx 189 ms, enter 96 ms, wake 658 ms
+2026-11-04T01:27:17 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=30)
+2026-11-04T01:27:28 SLEEP: settle 0 ms, udp tx 189 ms, enter 60 ms, wake 779 ms
+2026-11-04T01:27:28 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=31)
+2026-11-04T01:27:39 SLEEP: settle 0 ms, udp tx 168 ms, enter 59 ms, wake 729 ms
+2026-11-04T01:27:39 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=32)
+2026-11-04T01:27:49 SLEEP: settle 0 ms, udp tx 188 ms, enter 59 ms, wake 654 ms
+2026-11-04T01:27:49 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=33)
+2026-11-04T01:28:00 SLEEP: settle 0 ms, udp tx 215 ms, enter 60 ms, wake 669 ms
+2026-11-04T01:28:00 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=34)
+2026-11-04T01:28:11 SLEEP: settle 0 ms, udp tx 190 ms, enter 69 ms, wake 705 ms
+2026-11-04T01:28:11 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=35)
+2026-11-04T01:28:21 SLEEP: settle 0 ms, udp tx 187 ms, enter 59 ms, wake 653 ms
+2026-11-04T01:28:21 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=36)
+2026-11-04T01:28:32 SLEEP: settle 0 ms, udp tx 241 ms, enter 60 ms, wake 639 ms
+2026-11-04T01:28:32 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=37)
+2026-11-04T01:28:42 SLEEP: settle 0 ms, udp tx 170 ms, enter 60 ms, wake 675 ms
+2026-11-04T01:28:42 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=38)
+2026-11-04T01:28:53 SLEEP: settle 0 ms, udp tx 203 ms, enter 59 ms, wake 675 ms
+2026-11-04T01:28:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=39)
+2026-11-04T01:29:04 SLEEP: settle 0 ms, udp tx 158 ms, enter 59 ms, wake 748 ms
+2026-11-04T01:29:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=40)
+2026-11-04T01:29:14 SLEEP: settle 0 ms, udp tx 170 ms, enter 59 ms, wake 673 ms
+2026-11-04T01:29:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=41)
+2026-11-04T01:29:25 SLEEP: settle 0 ms, udp tx 172 ms, enter 60 ms, wake 693 ms
+2026-11-04T01:29:25 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=42)
+2026-11-04T01:29:36 SLEEP: settle 0 ms, udp tx 186 ms, enter 60 ms, wake 669 ms
+2026-11-04T01:29:36 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=43)
+2026-11-04T01:29:46 SLEEP: settle 0 ms, udp tx 196 ms, enter 59 ms, wake 670 ms
+2026-11-04T01:29:46 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=44)
+2026-11-04T01:29:57 SLEEP: settle 0 ms, udp tx 198 ms, enter 60 ms, wake 720 ms
+2026-11-04T01:29:57 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=45)
+2026-11-04T01:30:08 SLEEP: settle 0 ms, udp tx 186 ms, enter 96 ms, wake 626 ms
+2026-11-04T01:30:08 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=46)
+2026-11-04T01:30:18 SLEEP: settle 0 ms, udp tx 220 ms, enter 60 ms, wake 725 ms
+2026-11-04T01:30:18 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=47)
+2026-11-04T01:30:29 SLEEP: settle 0 ms, udp tx 186 ms, enter 93 ms, wake 648 ms
+2026-11-04T01:30:29 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=48)
+2026-11-04T01:30:40 SLEEP: settle 0 ms, udp tx 191 ms, enter 59 ms, wake 720 ms
+2026-11-04T01:30:40 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=49)
+2026-11-04T01:30:50 SLEEP: settle 0 ms, udp tx 187 ms, enter 73 ms, wake 660 ms
+2026-11-04T01:30:50 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=50)
+2026-11-04T01:31:01 SLEEP: settle 0 ms, udp tx 193 ms, enter 133 ms, wake 654 ms
+2026-11-04T01:31:01 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=51)
+2026-11-04T01:31:12 SLEEP: settle 0 ms, udp tx 197 ms, enter 96 ms, wake 704 ms
+2026-11-04T01:31:12 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=52)
+2026-11-04T01:31:22 SLEEP: settle 0 ms, udp tx 194 ms, enter 77 ms, wake 644 ms
+2026-11-04T01:31:22 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=53)
+2026-11-04T01:31:33 SLEEP: settle 0 ms, udp tx 192 ms, enter 60 ms, wake 679 ms
+2026-11-04T01:31:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=54)
+2026-11-04T01:31:43 SLEEP: settle 0 ms, udp tx 201 ms, enter 96 ms, wake 647 ms
+2026-11-04T01:31:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=55)
+2026-11-04T01:31:54 SLEEP: settle 0 ms, udp tx 188 ms, enter 60 ms, wake 793 ms
+2026-11-04T01:31:54 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=56)
+2026-11-04T01:32:05 SLEEP: settle 0 ms, udp tx 130 ms, enter 133 ms, wake 723 ms
+2026-11-04T01:32:05 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=57)
+2026-11-04T01:32:15 SLEEP: settle 0 ms, udp tx 198 ms, enter 60 ms, wake 708 ms
+2026-11-04T01:32:15 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=58)
+2026-11-04T01:32:27 SLEEP: settle 0 ms, udp tx 172 ms, enter 162 ms, wake 678 ms
+2026-11-04T01:32:27 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=59)
+2026-11-04T01:32:38 SLEEP: settle 0 ms, udp tx 190 ms, enter 59 ms, wake 674 ms
+2026-11-04T01:32:38 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=60)
+2026-11-04T01:32:48 SLEEP: settle 0 ms, udp tx 224 ms, enter 60 ms, wake 679 ms
+2026-11-04T01:32:48 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=61)
+2026-11-04T01:32:59 SLEEP: settle 0 ms, udp tx 245 ms, enter 83 ms, wake 754 ms
+2026-11-04T01:32:59 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=62)
+2026-11-04T01:33:10 SLEEP: settle 0 ms, udp tx 186 ms, enter 65 ms, wake 663 ms
+2026-11-04T01:33:10 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=63)
+2026-11-04T01:33:20 SLEEP: settle 0 ms, udp tx 199 ms, enter 65 ms, wake 673 ms
+2026-11-04T01:33:20 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=64)
+2026-11-04T01:33:31 SLEEP: settle 0 ms, udp tx 196 ms, enter 70 ms, wake 654 ms
+2026-11-04T01:33:31 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=65)
+2026-11-04T01:33:42 SLEEP: settle 0 ms, udp tx 207 ms, enter 81 ms, wake 654 ms
+2026-11-04T01:33:42 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=66)
+2026-11-04T01:33:52 SLEEP: settle 0 ms, udp tx 191 ms, enter 60 ms, wake 704 ms
+2026-11-04T01:33:52 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=67)
+2026-11-04T01:34:03 SLEEP: settle 0 ms, udp tx 210 ms, enter 74 ms, wake 684 ms
+2026-11-04T01:34:03 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=68)
+2026-11-04T01:34:14 SLEEP: settle 0 ms, udp tx 194 ms, enter 133 ms, wake 664 ms
+2026-11-04T01:34:14 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=69)
+2026-11-04T01:34:24 SLEEP: settle 0 ms, udp tx 195 ms, enter 92 ms, wake 649 ms
+2026-11-04T01:34:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=70)
+2026-11-04T01:34:35 SLEEP: settle 0 ms, udp tx 195 ms, enter 60 ms, wake 685 ms
+2026-11-04T01:34:35 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=71)
+2026-11-04T01:34:45 SLEEP: settle 0 ms, udp tx 187 ms, enter 60 ms, wake 653 ms
+2026-11-04T01:34:45 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=72)
+2026-11-04T01:34:56 SLEEP: settle 0 ms, udp tx 201 ms, enter 60 ms, wake 705 ms
+2026-11-04T01:34:56 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=73)
+2026-11-04T01:35:07 SLEEP: settle 0 ms, udp tx 214 ms, enter 133 ms, wake 694 ms
+2026-11-04T01:35:07 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=74)
+2026-11-04T01:35:17 SLEEP: settle 0 ms, udp tx 186 ms, enter 90 ms, wake 648 ms
+2026-11-04T01:35:17 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=75)
+2026-11-04T01:35:28 SLEEP: settle 0 ms, udp tx 191 ms, enter 60 ms, wake 768 ms
+2026-11-04T01:35:28 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=76)
+2026-11-04T01:35:39 SLEEP: settle 0 ms, udp tx 156 ms, enter 59 ms, wake 680 ms
+2026-11-04T01:35:39 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=77)
+2026-11-04T01:35:49 SLEEP: settle 0 ms, udp tx 227 ms, enter 59 ms, wake 712 ms
+2026-11-04T01:35:49 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=78)
+2026-11-04T01:36:00 SLEEP: settle 0 ms, udp tx 202 ms, enter 59 ms, wake 718 ms
+2026-11-04T01:36:00 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=79)
+2026-11-04T01:36:11 SLEEP: settle 0 ms, udp tx 182 ms, enter 59 ms, wake 675 ms
+2026-11-04T01:36:11 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=80)
+2026-11-04T01:36:21 SLEEP: settle 0 ms, udp tx 188 ms, enter 59 ms, wake 677 ms
+2026-11-04T01:36:21 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=81)
+2026-11-04T01:36:32 SLEEP: settle 0 ms, udp tx 174 ms, enter 60 ms, wake 667 ms
+2026-11-04T01:36:32 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=82)
+2026-11-04T01:36:43 SLEEP: settle 0 ms, udp tx 174 ms, enter 59 ms, wake 673 ms
+2026-11-04T01:36:43 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=83)
+2026-11-04T01:36:53 SLEEP: settle 0 ms, udp tx 176 ms, enter 60 ms, wake 675 ms
+2026-11-04T01:36:53 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=84)
+2026-11-04T01:37:04 SLEEP: settle 0 ms, udp tx 178 ms, enter 59 ms, wake 754 ms
+2026-11-04T01:37:04 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=85)
+2026-11-04T01:37:15 SLEEP: settle 0 ms, udp tx 186 ms, enter 72 ms, wake 673 ms
+2026-11-04T01:37:15 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=86)
+2026-11-04T01:37:25 SLEEP: settle 0 ms, udp tx 194 ms, enter 67 ms, wake 727 ms
+2026-11-04T01:37:25 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=87)
+2026-11-04T01:37:36 SLEEP: settle 0 ms, udp tx 148 ms, enter 61 ms, wake 679 ms
+2026-11-04T01:37:36 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=88)
+2026-11-04T01:37:47 SLEEP: settle 0 ms, udp tx 167 ms, enter 60 ms, wake 758 ms
+2026-11-04T01:37:47 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=89)
+2026-11-04T01:37:57 SLEEP: settle 0 ms, udp tx 174 ms, enter 59 ms, wake 620 ms
+2026-11-04T01:37:57 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=90)
+2026-11-04T01:38:08 SLEEP: settle 0 ms, udp tx 244 ms, enter 59 ms, wake 654 ms
+2026-11-04T01:38:08 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=91)
+2026-11-04T01:38:18 SLEEP: settle 0 ms, udp tx 189 ms, enter 132 ms, wake 664 ms
+2026-11-04T01:38:18 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=92)
+2026-11-04T01:38:29 SLEEP: settle 0 ms, udp tx 152 ms, enter 59 ms, wake 714 ms
+2026-11-04T01:38:29 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=93)
+2026-11-04T01:38:40 SLEEP: settle 0 ms, udp tx 240 ms, enter 59 ms, wake 683 ms
+2026-11-04T01:38:40 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=94)
+2026-11-04T01:38:50 SLEEP: settle 0 ms, udp tx 238 ms, enter 60 ms, wake 674 ms
+2026-11-04T01:38:50 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=95)
+2026-11-04T01:39:01 SLEEP: settle 0 ms, udp tx 193 ms, enter 59 ms, wake 841 ms
+2026-11-04T01:39:01 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=96)
+2026-11-04T01:39:12 SLEEP: settle 0 ms, udp tx 178 ms, enter 59 ms, wake 725 ms
+2026-11-04T01:39:12 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=97)
+2026-11-04T01:39:23 SLEEP: settle 0 ms, udp tx 186 ms, enter 60 ms, wake 708 ms
+2026-11-04T01:39:23 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=98)
+2026-11-04T01:39:33 SLEEP: settle 0 ms, udp tx 186 ms, enter 60 ms, wake 643 ms
+2026-11-04T01:39:33 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=99)
+2026-11-04T01:39:44 SLEEP: settle 0 ms, udp tx 216 ms, enter 60 ms, wake 702 ms
+2026-11-04T01:39:44 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=100)
+2026-11-04T01:39:54 SLEEP: settle 0 ms, udp tx 180 ms, enter 60 ms, wake 695 ms
+2026-11-04T01:39:55 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=101)
+2026-11-04T01:40:05 SLEEP: settle 0 ms, udp tx 190 ms, enter 60 ms, wake 660 ms
+2026-11-04T01:40:05 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=102)
+2026-11-04T01:40:16 SLEEP: settle 0 ms, udp tx 190 ms, enter 59 ms, wake 673 ms
+2026-11-04T01:40:16 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=103)
+2026-11-04T01:40:26 SLEEP: settle 0 ms, udp tx 180 ms, enter 59 ms, wake 719 ms
+2026-11-04T01:40:26 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=104)
+2026-11-04T01:40:37 SLEEP: settle 0 ms, udp tx 186 ms, enter 96 ms, wake 668 ms
+2026-11-04T01:40:37 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=105)
+2026-11-04T01:40:48 SLEEP: settle 0 ms, udp tx 195 ms, enter 95 ms, wake 699 ms
+2026-11-04T01:40:48 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=106)
+2026-11-04T01:40:58 SLEEP: settle 0 ms, udp tx 188 ms, enter 82 ms, wake 659 ms
+2026-11-04T01:40:58 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=107)
+2026-11-04T01:41:09 SLEEP: settle 0 ms, udp tx 227 ms, enter 60 ms, wake 761 ms
+2026-11-04T01:41:09 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=108)
+2026-11-04T01:41:20 SLEEP: settle 0 ms, udp tx 167 ms, enter 60 ms, wake 679 ms
+2026-11-04T01:41:20 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=109)
+2026-11-04T01:41:30 SLEEP: settle 0 ms, udp tx 266 ms, enter 60 ms, wake 674 ms
+2026-11-04T01:41:30 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=110)
+2026-11-04T01:41:41 SLEEP: settle 0 ms, udp tx 238 ms, enter 60 ms, wake 722 ms
+2026-11-04T01:41:41 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=111)
+2026-11-04T01:41:52 SLEEP: settle 0 ms, udp tx 186 ms, enter 61 ms, wake 737 ms
+2026-11-04T01:41:52 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=112)
+2026-11-04T01:42:02 SLEEP: settle 0 ms, udp tx 186 ms, enter 60 ms, wake 653 ms
+2026-11-04T01:42:02 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=113)
+2026-11-04T01:42:13 SLEEP: settle 0 ms, udp tx 189 ms, enter 60 ms, wake 744 ms
+2026-11-04T01:42:13 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=114)
+2026-11-04T01:42:24 SLEEP: settle 0 ms, udp tx 216 ms, enter 59 ms, wake 644 ms
+2026-11-04T01:42:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=115)
+2026-11-04T01:42:34 SLEEP: settle 0 ms, udp tx 216 ms, enter 67 ms, wake 755 ms
+2026-11-04T01:42:34 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=116)
+2026-11-04T01:42:45 SLEEP: settle 0 ms, udp tx 176 ms, enter 59 ms, wake 707 ms
+2026-11-04T01:42:45 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=117)

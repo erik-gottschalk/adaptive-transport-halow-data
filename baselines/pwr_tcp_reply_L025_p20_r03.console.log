@@ -1,0 +1,576 @@
+2026-10-07T12:51:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=6); server reports 0 received
+2026-10-07T12:51:49 
+2026-10-07T12:51:49 Note: This firmware has been built with debug in stop mode enabled.
+2026-10-07T12:51:49 This will impact power consumption and should be disabled for production firmware.
+2026-10-07T12:51:49 
+2026-10-07T12:51:49 
+2026-10-07T12:51:49 Adaptive Transport Example (Built Oct  5 2026 22:15:09)
+2026-10-07T12:51:49 
+2026-10-07T12:51:50 -----------------------------------
+2026-10-07T12:51:50   HW Version:              MM-MM8108-EKH05
+2026-10-07T12:51:50   BCF API version:         13.1.0
+2026-10-07T12:51:50   BCF build version:       f094c89b ee7bb6f118
+2026-10-07T12:51:50   BCF board description:   {"module": "mm8108-mf15457", "s
+2026-10-07T12:51:50   Morselib version:        2.13.1
+2026-10-07T12:51:50   Morse firmware version:  2.0.0
+2026-10-07T12:51:50   Morse chip ID:           0x0809
+2026-10-07T12:51:50   Morse chip name:         MM8108B2
+2026-10-07T12:51:50 -----------------------------------
+2026-10-07T12:51:50 Initialize IPv4 using DHCP...
+2026-10-07T12:51:50 Morse LwIP interface initialised.
+2026-10-07T12:51:50 Attempting to connect to REDACTED-SSID with passphrase REDACTED-PASSPHRASE
+2026-10-07T12:51:50 This may take some time (~10 seconds)
+2026-10-07T12:51:52 WLAN STA connecting
+2026-10-07T12:51:53 WLAN STA connected
+2026-10-07T12:51:53 Morse STA interface up with MAC address 0c:bf:74:00:1f:ed
+2026-10-07T12:51:53       4157 NetIf Link status DOWN
+2026-10-07T12:51:54       5252 NetIf Link status UP
+2026-10-07T12:51:54 DNS server 0: 192.168.12.1
+2026-10-07T12:51:55 Link is up. Time: 5252 ms, IP: 192.168.12.149, Netmask: 255.255.255.0, Gateway: 192.168.12.1, DNS server 0: 192.168.12.1
+2026-10-07T12:51:55 
+2026-10-07T12:51:55 Remote config: applied server-provided overrides from 192.0.2.1:64016 (296 bytes)
+2026-10-07T12:51:55 Send interval 1000 ms
+2026-10-07T12:51:55 ATC: init x=50 L=0.0250 N0=50 calibration_packets=10 use_a_L=0 use_change_detection=0
+2026-10-07T12:51:55 ATC: estimator use_time_estimator=1 est_half_life=20.0 age_half_life=20.0 age_target_factor=2.00 debt_horizon=250.0 debt_credit=0.0 debt_per_class=1
+2026-10-07T12:51:55 ATC: loss debt horizon=250 credit=0 per_class=1
+2026-10-07T12:51:55 UDP socket connected to 192.0.2.1:64015
+2026-10-07T12:51:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=0); server reports 0 received
+2026-10-07T12:51:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=1); server reports 0 received
+2026-10-07T12:51:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=2); server reports 0 received
+2026-10-07T12:51:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=3); server reports 0 received
+2026-10-07T12:52:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=4); server reports 0 received
+2026-10-07T12:52:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=5); server reports 0 received
+2026-10-07T12:52:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=6); server reports 0 received
+2026-10-07T12:52:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=7); server reports 0 received
+2026-10-07T12:52:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=8); server reports 0 received
+2026-10-07T12:52:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=9); server reports 0 received
+2026-10-07T12:52:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=10); server reports 0 received
+2026-10-07T12:52:22 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=11)
+2026-10-07T12:52:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=12); server reports 0 received
+2026-10-07T12:52:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=13); server reports 0 received
+2026-10-07T12:52:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=14); server reports 0 received
+2026-10-07T12:52:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=15); server reports 0 received
+2026-10-07T12:52:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=16); server reports 0 received
+2026-10-07T12:52:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=17); server reports 0 received
+2026-10-07T12:52:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=18); server reports 0 received
+2026-10-07T12:52:48 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=19)
+2026-10-07T12:52:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=20); server reports 0 received
+2026-10-07T12:52:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=21); server reports 0 received
+2026-10-07T12:52:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=22); server reports 0 received
+2026-10-07T12:52:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=23); server reports 0 received
+2026-10-07T12:52:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=24); server reports 0 received
+2026-10-07T12:53:02 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=25)
+2026-10-07T12:53:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=26); server reports 0 received
+2026-10-07T12:53:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=27); server reports 0 received
+2026-10-07T12:53:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=28); server reports 0 received
+2026-10-07T12:53:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=29); server reports 0 received
+2026-10-07T12:53:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=30); server reports 0 received
+2026-10-07T12:53:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=31); server reports 0 received
+2026-10-07T12:53:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=32); server reports 0 received
+2026-10-07T12:53:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=33); server reports 0 received
+2026-10-07T12:53:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=34); server reports 0 received
+2026-10-07T12:53:39 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=35)
+2026-10-07T12:53:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=36); server reports 0 received
+2026-10-07T12:53:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=37); server reports 0 received
+2026-10-07T12:53:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=38); server reports 0 received
+2026-10-07T12:53:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=39); server reports 0 received
+2026-10-07T12:53:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=40); server reports 0 received
+2026-10-07T12:53:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=41); server reports 0 received
+2026-10-07T12:53:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=42); server reports 0 received
+2026-10-07T12:54:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=43); server reports 0 received
+2026-10-07T12:54:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=44); server reports 0 received
+2026-10-07T12:54:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=45); server reports 0 received
+2026-10-07T12:54:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=46); server reports 0 received
+2026-10-07T12:54:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=47); server reports 0 received
+2026-10-07T12:54:23 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=48)
+2026-10-07T12:54:30 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=49)
+2026-10-07T12:54:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=50); server reports 0 received
+2026-10-07T12:54:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=51); server reports 0 received
+2026-10-07T12:54:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=52); server reports 0 received
+2026-10-07T12:54:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=53); server reports 0 received
+2026-10-07T12:54:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=54); server reports 0 received
+2026-10-07T12:54:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=55); server reports 0 received
+2026-10-07T12:54:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=56); server reports 0 received
+2026-10-07T12:54:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=57); server reports 0 received
+2026-10-07T12:54:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=58); server reports 0 received
+2026-10-07T12:54:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=59); server reports 0 received
+2026-10-07T12:54:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=60); server reports 0 received
+2026-10-07T12:54:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=61); server reports 0 received
+2026-10-07T12:55:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=62); server reports 0 received
+2026-10-07T12:55:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=63); server reports 0 received
+2026-10-07T12:55:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=64); server reports 0 received
+2026-10-07T12:55:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=65); server reports 0 received
+2026-10-07T12:55:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=66); server reports 0 received
+2026-10-07T12:55:22 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=67)
+2026-10-07T12:55:28 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=68)
+2026-10-07T12:55:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=69); server reports 0 received
+2026-10-07T12:55:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=70); server reports 0 received
+2026-10-07T12:55:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=71); server reports 0 received
+2026-10-07T12:55:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=72); server reports 0 received
+2026-10-07T12:55:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=73); server reports 0 received
+2026-10-07T12:55:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=74); server reports 0 received
+2026-10-07T12:55:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=75); server reports 0 received
+2026-10-07T12:55:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=76); server reports 0 received
+2026-10-07T12:55:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=77); server reports 0 received
+2026-10-07T12:56:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=78); server reports 0 received
+2026-10-07T12:56:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=79); server reports 0 received
+2026-10-07T12:56:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=80); server reports 0 received
+2026-10-07T12:56:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=81); server reports 0 received
+2026-10-07T12:56:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=82); server reports 0 received
+2026-10-07T12:56:15 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=83)
+2026-10-07T12:56:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=84); server reports 0 received
+2026-10-07T12:56:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=85); server reports 0 received
+2026-10-07T12:56:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=86); server reports 0 received
+2026-10-07T12:56:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=87); server reports 0 received
+2026-10-07T12:56:27 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=88)
+2026-10-07T12:56:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=89); server reports 0 received
+2026-10-07T12:56:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=90); server reports 0 received
+2026-10-07T12:56:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=91); server reports 0 received
+2026-10-07T12:56:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=92); server reports 0 received
+2026-10-07T12:56:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=93); server reports 0 received
+2026-10-07T12:56:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=94); server reports 0 received
+2026-10-07T12:56:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=95); server reports 0 received
+2026-10-07T12:56:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=96); server reports 0 received
+2026-10-07T12:56:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=97); server reports 0 received
+2026-10-07T12:56:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=98); server reports 0 received
+2026-10-07T12:56:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=99); server reports 0 received
+2026-10-07T12:56:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=100); server reports 0 received
+2026-10-07T12:57:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=101); server reports 0 received
+2026-10-07T12:57:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=102); server reports 0 received
+2026-10-07T12:57:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=103); server reports 0 received
+2026-10-07T12:57:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=104); server reports 0 received
+2026-10-07T12:57:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=105); server reports 0 received
+2026-10-07T12:57:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=106); server reports 0 received
+2026-10-07T12:57:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=107); server reports 0 received
+2026-10-07T12:57:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=108); server reports 0 received
+2026-10-07T12:57:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=109); server reports 0 received
+2026-10-07T12:57:26 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=110)
+2026-10-07T12:57:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=111); server reports 0 received
+2026-10-07T12:57:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=112); server reports 0 received
+2026-10-07T12:57:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=113); server reports 0 received
+2026-10-07T12:57:37 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=114)
+2026-10-07T12:57:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=115); server reports 0 received
+2026-10-07T12:57:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=116); server reports 0 received
+2026-10-07T12:57:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=117); server reports 0 received
+2026-10-07T12:57:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=118); server reports 0 received
+2026-10-07T12:57:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=119); server reports 0 received
+2026-10-07T12:57:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=120); server reports 0 received
+2026-10-07T12:57:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=121); server reports 0 received
+2026-10-07T12:58:01 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=122)
+2026-10-07T12:58:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=123); server reports 0 received
+2026-10-07T12:58:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=124); server reports 0 received
+2026-10-07T12:58:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=125); server reports 0 received
+2026-10-07T12:58:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=126); server reports 0 received
+2026-10-07T12:58:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=127); server reports 0 received
+2026-10-07T12:58:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=128); server reports 0 received
+2026-10-07T12:58:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=129); server reports 0 received
+2026-10-07T12:58:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=130); server reports 0 received
+2026-10-07T12:58:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=131); server reports 0 received
+2026-10-07T12:58:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=132); server reports 0 received
+2026-10-07T12:58:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=133); server reports 0 received
+2026-10-07T12:58:30 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=134)
+2026-10-07T12:58:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=135); server reports 0 received
+2026-10-07T12:58:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=136); server reports 0 received
+2026-10-07T12:58:42 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=137)
+2026-10-07T12:58:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=138); server reports 0 received
+2026-10-07T12:58:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=139); server reports 0 received
+2026-10-07T12:58:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=140); server reports 0 received
+2026-10-07T12:58:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=141); server reports 0 received
+2026-10-07T12:58:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=142); server reports 0 received
+2026-10-07T12:59:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=143); server reports 0 received
+2026-10-07T12:59:06 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=144)
+2026-10-07T12:59:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=145); server reports 0 received
+2026-10-07T12:59:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=146); server reports 0 received
+2026-10-07T12:59:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=147); server reports 0 received
+2026-10-07T12:59:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=148); server reports 0 received
+2026-10-07T12:59:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=149); server reports 0 received
+2026-10-07T12:59:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=150); server reports 0 received
+2026-10-07T12:59:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=151); server reports 0 received
+2026-10-07T12:59:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=152); server reports 0 received
+2026-10-07T12:59:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=153); server reports 0 received
+2026-10-07T12:59:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=154); server reports 0 received
+2026-10-07T12:59:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=155); server reports 0 received
+2026-10-07T12:59:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=156); server reports 0 received
+2026-10-07T12:59:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=157); server reports 0 received
+2026-10-07T12:59:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=158); server reports 0 received
+2026-10-07T12:59:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=159); server reports 0 received
+2026-10-07T12:59:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=160); server reports 0 received
+2026-10-07T12:59:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=161); server reports 0 received
+2026-10-07T12:59:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=162); server reports 0 received
+2026-10-07T12:59:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=163); server reports 0 received
+2026-10-07T12:59:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=164); server reports 0 received
+2026-10-07T13:00:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=165); server reports 0 received
+2026-10-07T13:00:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=166); server reports 0 received
+2026-10-07T13:00:07 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=167)
+2026-10-07T13:00:11 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=168)
+2026-10-07T13:00:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=169); server reports 0 received
+2026-10-07T13:00:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=170); server reports 0 received
+2026-10-07T13:00:20 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=171)
+2026-10-07T13:00:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=172); server reports 0 received
+2026-10-07T13:00:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=173); server reports 0 received
+2026-10-07T13:00:41 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=174)
+2026-10-07T13:00:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=175); server reports 0 received
+2026-10-07T13:00:47 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=176)
+2026-10-07T13:00:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=177); server reports 0 received
+2026-10-07T13:01:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=178); server reports 0 received
+2026-10-07T13:01:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=179); server reports 0 received
+2026-10-07T13:01:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=180); server reports 0 received
+2026-10-07T13:01:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=181); server reports 0 received
+2026-10-07T13:01:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=182); server reports 0 received
+2026-10-07T13:01:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=183); server reports 0 received
+2026-10-07T13:01:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=184); server reports 0 received
+2026-10-07T13:01:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=185); server reports 0 received
+2026-10-07T13:01:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=186); server reports 0 received
+2026-10-07T13:01:27 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=187)
+2026-10-07T13:01:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=188); server reports 0 received
+2026-10-07T13:01:32 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=189)
+2026-10-07T13:01:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=190); server reports 0 received
+2026-10-07T13:01:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=191); server reports 0 received
+2026-10-07T13:01:45 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=192)
+2026-10-07T13:01:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=193); server reports 0 received
+2026-10-07T13:01:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=194); server reports 0 received
+2026-10-07T13:01:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=195); server reports 0 received
+2026-10-07T13:01:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=196); server reports 0 received
+2026-10-07T13:02:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=197); server reports 0 received
+2026-10-07T13:02:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=198); server reports 0 received
+2026-10-07T13:02:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=199); server reports 0 received
+2026-10-07T13:02:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=200); server reports 0 received
+2026-10-07T13:02:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=201); server reports 0 received
+2026-10-07T13:02:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=202); server reports 0 received
+2026-10-07T13:02:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=203); server reports 0 received
+2026-10-07T13:02:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=204); server reports 0 received
+2026-10-07T13:02:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=205); server reports 0 received
+2026-10-07T13:02:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=206); server reports 0 received
+2026-10-07T13:02:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=207); server reports 0 received
+2026-10-07T13:02:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=208); server reports 0 received
+2026-10-07T13:02:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=209); server reports 0 received
+2026-10-07T13:02:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=210); server reports 0 received
+2026-10-07T13:02:39 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=211)
+2026-10-07T13:02:46 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=212)
+2026-10-07T13:02:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=213); server reports 0 received
+2026-10-07T13:02:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=214); server reports 0 received
+2026-10-07T13:02:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=215); server reports 0 received
+2026-10-07T13:02:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=216); server reports 0 received
+2026-10-07T13:03:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=217); server reports 0 received
+2026-10-07T13:03:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=218); server reports 0 received
+2026-10-07T13:03:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=219); server reports 0 received
+2026-10-07T13:03:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=220); server reports 0 received
+2026-10-07T13:03:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=221); server reports 0 received
+2026-10-07T13:03:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=222); server reports 0 received
+2026-10-07T13:03:12 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=223)
+2026-10-07T13:03:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=224); server reports 0 received
+2026-10-07T13:03:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=225); server reports 0 received
+2026-10-07T13:03:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=226); server reports 0 received
+2026-10-07T13:03:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=227); server reports 0 received
+2026-10-07T13:03:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=228); server reports 0 received
+2026-10-07T13:03:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=229); server reports 0 received
+2026-10-07T13:03:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=230); server reports 0 received
+2026-10-07T13:03:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=231); server reports 0 received
+2026-10-07T13:03:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=232); server reports 0 received
+2026-10-07T13:03:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=233); server reports 0 received
+2026-10-07T13:03:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=234); server reports 0 received
+2026-10-07T13:03:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=235); server reports 0 received
+2026-10-07T13:03:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=236); server reports 0 received
+2026-10-07T13:03:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=237); server reports 0 received
+2026-10-07T13:03:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=238); server reports 0 received
+2026-10-07T13:03:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=239); server reports 0 received
+2026-10-07T13:03:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=240); server reports 0 received
+2026-10-07T13:03:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=241); server reports 0 received
+2026-10-07T13:03:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=242); server reports 0 received
+2026-10-07T13:03:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=243); server reports 0 received
+2026-10-07T13:03:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=244); server reports 0 received
+2026-10-07T13:03:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=245); server reports 0 received
+2026-10-07T13:04:00 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=246)
+2026-10-07T13:04:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=247); server reports 0 received
+2026-10-07T13:04:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=248); server reports 0 received
+2026-10-07T13:04:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=249); server reports 0 received
+2026-10-07T13:04:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=250); server reports 0 received
+2026-10-07T13:04:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=251); server reports 0 received
+2026-10-07T13:04:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=252); server reports 0 received
+2026-10-07T13:04:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=253); server reports 0 received
+2026-10-07T13:04:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=254); server reports 0 received
+2026-10-07T13:04:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=255); server reports 0 received
+2026-10-07T13:04:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=256); server reports 0 received
+2026-10-07T13:04:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=257); server reports 0 received
+2026-10-07T13:04:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=258); server reports 0 received
+2026-10-07T13:04:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=259); server reports 0 received
+2026-10-07T13:04:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=260); server reports 0 received
+2026-10-07T13:04:41 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=261)
+2026-10-07T13:04:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=262); server reports 0 received
+2026-10-07T13:04:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=263); server reports 0 received
+2026-10-07T13:04:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=264); server reports 0 received
+2026-10-07T13:04:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=265); server reports 0 received
+2026-10-07T13:04:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=266); server reports 0 received
+2026-10-07T13:04:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=267); server reports 0 received
+2026-10-07T13:04:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=268); server reports 0 received
+2026-10-07T13:04:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=269); server reports 0 received
+2026-10-07T13:04:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=270); server reports 0 received
+2026-10-07T13:04:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=271); server reports 0 received
+2026-10-07T13:05:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=272); server reports 0 received
+2026-10-07T13:05:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=273); server reports 0 received
+2026-10-07T13:05:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=274); server reports 0 received
+2026-10-07T13:05:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=275); server reports 0 received
+2026-10-07T13:05:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=276); server reports 0 received
+2026-10-07T13:05:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=277); server reports 0 received
+2026-10-07T13:05:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=278); server reports 0 received
+2026-10-07T13:05:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=279); server reports 0 received
+2026-10-07T13:05:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=280); server reports 0 received
+2026-10-07T13:05:30 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=281)
+2026-10-07T13:05:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=282); server reports 0 received
+2026-10-07T13:05:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=283); server reports 0 received
+2026-10-07T13:05:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=284); server reports 0 received
+2026-10-07T13:05:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=285); server reports 0 received
+2026-10-07T13:05:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=286); server reports 0 received
+2026-10-07T13:05:49 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=287)
+2026-10-07T13:05:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=288); server reports 0 received
+2026-10-07T13:05:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=289); server reports 0 received
+2026-10-07T13:05:55 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=290)
+2026-10-07T13:05:59 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=291)
+2026-10-07T13:06:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=292); server reports 0 received
+2026-10-07T13:06:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=293); server reports 0 received
+2026-10-07T13:06:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=294); server reports 0 received
+2026-10-07T13:06:24 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=295)
+2026-10-07T13:06:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=296); server reports 0 received
+2026-10-07T13:06:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=297); server reports 0 received
+2026-10-07T13:06:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=298); server reports 0 received
+2026-10-07T13:06:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=299); server reports 0 received
+2026-10-07T13:06:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=300); server reports 0 received
+2026-10-07T13:06:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=301); server reports 0 received
+2026-10-07T13:06:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=302); server reports 0 received
+2026-10-07T13:06:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=303); server reports 0 received
+2026-10-07T13:06:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=304); server reports 0 received
+2026-10-07T13:06:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=305); server reports 0 received
+2026-10-07T13:06:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=306); server reports 0 received
+2026-10-07T13:06:54 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=307)
+2026-10-07T13:06:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=308); server reports 0 received
+2026-10-07T13:06:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=309); server reports 0 received
+2026-10-07T13:07:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=310); server reports 0 received
+2026-10-07T13:07:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=311); server reports 0 received
+2026-10-07T13:07:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=312); server reports 0 received
+2026-10-07T13:07:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=313); server reports 0 received
+2026-10-07T13:07:15 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=314)
+2026-10-07T13:07:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=315); server reports 0 received
+2026-10-07T13:07:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=316); server reports 0 received
+2026-10-07T13:07:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=317); server reports 0 received
+2026-10-07T13:07:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=318); server reports 0 received
+2026-10-07T13:07:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=319); server reports 0 received
+2026-10-07T13:07:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=320); server reports 0 received
+2026-10-07T13:07:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=321); server reports 0 received
+2026-10-07T13:07:32 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=322)
+2026-10-07T13:07:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=323); server reports 0 received
+2026-10-07T13:07:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=324); server reports 0 received
+2026-10-07T13:07:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=325); server reports 0 received
+2026-10-07T13:07:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=326); server reports 0 received
+2026-10-07T13:07:43 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=327)
+2026-10-07T13:07:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=328); server reports 0 received
+2026-10-07T13:07:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=329); server reports 0 received
+2026-10-07T13:07:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=330); server reports 0 received
+2026-10-07T13:07:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=331); server reports 0 received
+2026-10-07T13:07:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=332); server reports 0 received
+2026-10-07T13:07:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=333); server reports 0 received
+2026-10-07T13:07:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=334); server reports 0 received
+2026-10-07T13:07:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=335); server reports 0 received
+2026-10-07T13:08:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=336); server reports 0 received
+2026-10-07T13:08:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=337); server reports 0 received
+2026-10-07T13:08:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=338); server reports 0 received
+2026-10-07T13:08:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=339); server reports 0 received
+2026-10-07T13:08:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=340); server reports 0 received
+2026-10-07T13:08:11 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=341)
+2026-10-07T13:08:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=342); server reports 0 received
+2026-10-07T13:08:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=343); server reports 0 received
+2026-10-07T13:08:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=344); server reports 0 received
+2026-10-07T13:08:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=345); server reports 0 received
+2026-10-07T13:08:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=346); server reports 0 received
+2026-10-07T13:08:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=347); server reports 0 received
+2026-10-07T13:08:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=348); server reports 0 received
+2026-10-07T13:08:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=349); server reports 0 received
+2026-10-07T13:08:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=350); server reports 0 received
+2026-10-07T13:08:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=351); server reports 0 received
+2026-10-07T13:08:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=352); server reports 0 received
+2026-10-07T13:08:29 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=353); server reports 0 received
+2026-10-07T13:08:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=354); server reports 0 received
+2026-10-07T13:08:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=355); server reports 0 received
+2026-10-07T13:08:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=356); server reports 0 received
+2026-10-07T13:08:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=357); server reports 0 received
+2026-10-07T13:08:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=358); server reports 0 received
+2026-10-07T13:08:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=359); server reports 0 received
+2026-10-07T13:08:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=360); server reports 0 received
+2026-10-07T13:08:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=361); server reports 0 received
+2026-10-07T13:08:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=362); server reports 0 received
+2026-10-07T13:08:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=363); server reports 0 received
+2026-10-07T13:08:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=364); server reports 0 received
+2026-10-07T13:08:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=365); server reports 0 received
+2026-10-07T13:08:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=366); server reports 0 received
+2026-10-07T13:08:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=367); server reports 0 received
+2026-10-07T13:08:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=368); server reports 0 received
+2026-10-07T13:09:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=369); server reports 0 received
+2026-10-07T13:09:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=370); server reports 0 received
+2026-10-07T13:09:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=371); server reports 0 received
+2026-10-07T13:09:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=372); server reports 0 received
+2026-10-07T13:09:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=373); server reports 0 received
+2026-10-07T13:09:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=374); server reports 0 received
+2026-10-07T13:09:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=375); server reports 0 received
+2026-10-07T13:09:20 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=376)
+2026-10-07T13:09:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=377); server reports 0 received
+2026-10-07T13:09:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=378); server reports 0 received
+2026-10-07T13:09:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=379); server reports 0 received
+2026-10-07T13:09:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=380); server reports 0 received
+2026-10-07T13:09:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=381); server reports 0 received
+2026-10-07T13:09:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=382); server reports 0 received
+2026-10-07T13:09:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=383); server reports 0 received
+2026-10-07T13:09:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=384); server reports 0 received
+2026-10-07T13:09:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=385); server reports 0 received
+2026-10-07T13:09:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=386); server reports 0 received
+2026-10-07T13:09:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=387); server reports 0 received
+2026-10-07T13:09:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=388); server reports 0 received
+2026-10-07T13:09:54 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=389)
+2026-10-07T13:09:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=390); server reports 0 received
+2026-10-07T13:10:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=391); server reports 0 received
+2026-10-07T13:10:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=392); server reports 0 received
+2026-10-07T13:10:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=393); server reports 0 received
+2026-10-07T13:10:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=394); server reports 0 received
+2026-10-07T13:10:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=395); server reports 0 received
+2026-10-07T13:10:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=396); server reports 0 received
+2026-10-07T13:10:14 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=397)
+2026-10-07T13:10:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=398); server reports 0 received
+2026-10-07T13:10:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=399); server reports 0 received
+2026-10-07T13:10:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=400); server reports 0 received
+2026-10-07T13:10:23 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=401)
+2026-10-07T13:10:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=402); server reports 0 received
+2026-10-07T13:10:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=403); server reports 0 received
+2026-10-07T13:10:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=404); server reports 0 received
+2026-10-07T13:10:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=405); server reports 0 received
+2026-10-07T13:10:38 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=406)
+2026-10-07T13:10:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=407); server reports 0 received
+2026-10-07T13:10:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=408); server reports 0 received
+2026-10-07T13:10:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=409); server reports 0 received
+2026-10-07T13:10:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=410); server reports 0 received
+2026-10-07T13:10:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=411); server reports 0 received
+2026-10-07T13:10:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=412); server reports 0 received
+2026-10-07T13:10:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=413); server reports 0 received
+2026-10-07T13:10:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=414); server reports 0 received
+2026-10-07T13:11:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=415); server reports 0 received
+2026-10-07T13:11:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=416); server reports 0 received
+2026-10-07T13:11:08 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=417)
+2026-10-07T13:11:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=418); server reports 0 received
+2026-10-07T13:11:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=419); server reports 0 received
+2026-10-07T13:11:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=420); server reports 0 received
+2026-10-07T13:11:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=421); server reports 0 received
+2026-10-07T13:11:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=422); server reports 0 received
+2026-10-07T13:11:21 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=423)
+2026-10-07T13:11:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=424); server reports 0 received
+2026-10-07T13:11:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=425); server reports 0 received
+2026-10-07T13:11:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=426); server reports 0 received
+2026-10-07T13:11:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=427); server reports 0 received
+2026-10-07T13:11:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=428); server reports 0 received
+2026-10-07T13:11:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=429); server reports 0 received
+2026-10-07T13:11:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=430); server reports 0 received
+2026-10-07T13:11:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=431); server reports 0 received
+2026-10-07T13:11:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=432); server reports 0 received
+2026-10-07T13:11:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=433); server reports 0 received
+2026-10-07T13:11:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=434); server reports 0 received
+2026-10-07T13:11:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=435); server reports 0 received
+2026-10-07T13:12:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=436); server reports 0 received
+2026-10-07T13:12:10 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=437)
+2026-10-07T13:12:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=438); server reports 0 received
+2026-10-07T13:12:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=439); server reports 0 received
+2026-10-07T13:12:16 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=440)
+2026-10-07T13:12:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=441); server reports 0 received
+2026-10-07T13:12:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=442); server reports 0 received
+2026-10-07T13:12:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=443); server reports 0 received
+2026-10-07T13:12:29 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=444); server reports 0 received
+2026-10-07T13:12:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=445); server reports 0 received
+2026-10-07T13:12:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=446); server reports 0 received
+2026-10-07T13:12:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=447); server reports 0 received
+2026-10-07T13:12:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=448); server reports 0 received
+2026-10-07T13:12:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=449); server reports 0 received
+2026-10-07T13:12:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=450); server reports 0 received
+2026-10-07T13:12:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=451); server reports 0 received
+2026-10-07T13:12:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=452); server reports 0 received
+2026-10-07T13:12:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=453); server reports 0 received
+2026-10-07T13:12:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=454); server reports 0 received
+2026-10-07T13:12:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=455); server reports 0 received
+2026-10-07T13:12:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=456); server reports 0 received
+2026-10-07T13:13:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=457); server reports 0 received
+2026-10-07T13:13:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=458); server reports 0 received
+2026-10-07T13:13:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=459); server reports 0 received
+2026-10-07T13:13:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=460); server reports 0 received
+2026-10-07T13:13:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=461); server reports 0 received
+2026-10-07T13:13:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=462); server reports 0 received
+2026-10-07T13:13:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=463); server reports 0 received
+2026-10-07T13:13:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=464); server reports 0 received
+2026-10-07T13:13:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=465); server reports 0 received
+2026-10-07T13:13:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=466); server reports 0 received
+2026-10-07T13:13:23 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=467)
+2026-10-07T13:13:29 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=468)
+2026-10-07T13:13:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=469); server reports 0 received
+2026-10-07T13:13:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=470); server reports 0 received
+2026-10-07T13:13:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=471); server reports 0 received
+2026-10-07T13:13:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=472); server reports 0 received
+2026-10-07T13:13:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=473); server reports 0 received
+2026-10-07T13:13:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=474); server reports 0 received
+2026-10-07T13:13:55 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=475)
+2026-10-07T13:13:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=476); server reports 0 received
+2026-10-07T13:13:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=477); server reports 0 received
+2026-10-07T13:14:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=478); server reports 0 received
+2026-10-07T13:14:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=479); server reports 0 received
+2026-10-07T13:14:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=480); server reports 0 received
+2026-10-07T13:14:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=481); server reports 0 received
+2026-10-07T13:14:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=482); server reports 0 received
+2026-10-07T13:14:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=483); server reports 0 received
+2026-10-07T13:14:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=484); server reports 0 received
+2026-10-07T13:14:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=485); server reports 0 received
+2026-10-07T13:14:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=486); server reports 0 received
+2026-10-07T13:14:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=487); server reports 0 received
+2026-10-07T13:14:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=488); server reports 0 received
+2026-10-07T13:14:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=489); server reports 0 received
+2026-10-07T13:14:30 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=490)
+2026-10-07T13:14:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=491); server reports 0 received
+2026-10-07T13:14:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=492); server reports 0 received
+2026-10-07T13:14:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=493); server reports 0 received
+2026-10-07T13:14:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=494); server reports 0 received
+2026-10-07T13:14:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=495); server reports 0 received
+2026-10-07T13:14:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=496); server reports 0 received
+2026-10-07T13:14:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=497); server reports 0 received
+2026-10-07T13:14:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=498); server reports 0 received
+2026-10-07T13:14:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=499); server reports 0 received
+2026-10-07T13:15:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=500); server reports 0 received
+2026-10-07T13:15:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=501); server reports 0 received
+2026-10-07T13:15:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=502); server reports 0 received
+2026-10-07T13:15:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=503); server reports 0 received
+2026-10-07T13:15:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=504); server reports 0 received
+2026-10-07T13:15:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=505); server reports 0 received
+2026-10-07T13:15:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=506); server reports 0 received
+2026-10-07T13:15:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=507); server reports 0 received
+2026-10-07T13:15:38 TCP demo reply from 192.0.2.1:64015 failed (errno 11, seq=508)
+2026-10-07T13:15:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=509); server reports 0 received
+2026-10-07T13:15:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=510); server reports 0 received
+2026-10-07T13:15:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=511); server reports 0 received
+2026-10-07T13:15:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=512); server reports 0 received
+2026-10-07T13:15:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=513); server reports 0 received
+2026-10-07T13:15:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=514); server reports 0 received
+2026-10-07T13:15:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=515); server reports 0 received
+2026-10-07T13:15:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=516); server reports 0 received
+2026-10-07T13:15:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=517); server reports 0 received
+2026-10-07T13:16:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=518); server reports 0 received
+2026-10-07T13:16:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=519); server reports 0 received
+2026-10-07T13:16:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=520); server reports 0 received
+2026-10-07T13:16:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=521); server reports 0 received
+2026-10-07T13:16:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=522); server reports 0 received
+2026-10-07T13:16:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=523); server reports 0 received
+2026-10-07T13:16:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=524); server reports 0 received
+2026-10-07T13:16:29 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=525); server reports 0 received
+2026-10-07T13:16:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=526); server reports 0 received
+2026-10-07T13:16:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=527); server reports 0 received
+2026-10-07T13:16:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=528); server reports 0 received
+2026-10-07T13:16:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=529); server reports 0 received
+2026-10-07T13:16:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=530); server reports 0 received
+2026-10-07T13:16:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=531); server reports 0 received
+2026-10-07T13:16:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=532); server reports 0 received
+2026-10-07T13:16:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=533); server reports 0 received
+2026-10-07T13:16:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=534); server reports 0 received
+2026-10-07T13:16:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=535); server reports 0 received
+2026-10-07T13:16:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=536); server reports 0 received
+2026-10-07T13:16:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=537); server reports 0 received
+2026-10-07T13:16:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=538); server reports 0 received
+2026-10-07T13:16:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=1, seq=539); server reports 0 received

@@ -1,0 +1,970 @@
+{"timestamp": "2026-11-12T11:19:44.957752", "event_type": "config_query", "ip": "198.51.100.1", "data": {"request": "GET_CONFIG", "config": {"DEMO_USE_ADAPTIVE_TRANSPORT": false, "DEMO_PACKET_USE_TCP": false, "DEMO_TCP_WAIT_REPLY": false, "ATC_X": 50, "ATC_L": 0.025, "ATC_N0": 50, "ATC_EPS": 1e-09, "ATC_CALIBRATION_PACKETS": 10, "ATC_USE_A_L": false, "ATC_USE_CHANGE_DETECTION": true, "ATC_DEBT_R": 250, "ATC_DEBT_CREDIT": 0, "ATC_DEBT_PER_CLASS": true, "ATC_DEBT_TCP": false, "ATC_RANDOM_PROBE": true, "ATC_CUMULATIVE": false, "MAX_PACKETS": 0, "SEND_INTERVAL_MS": 1000, "MIX_L": "", "MIX_SHARE": "", "UDP_ACK": true}}}
+{"timestamp": "2026-11-12T11:19:45.027745", "event_type": "config_confirmed", "ip": "198.51.100.1", "data": {"effective_config": {"DEMO_USE_ADAPTIVE_TRANSPORT": "0", "DEMO_PACKET_USE_TCP": "0", "DEMO_TCP_WAIT_REPLY": "0", "ATC_X": "50", "ATC_L": "0.025", "ATC_N0": "50", "ATC_EPS": "1e-09", "ATC_CALIBRATION_PACKETS": "10", "ATC_USE_A_L": "0", "ATC_USE_CHANGE_DETECTION": "1", "ATC_DEBT_R": "250", "ATC_DEBT_CREDIT": "0", "ATC_DEBT_PER_CLASS": "1", "ATC_DEBT_TCP": "0", "ATC_RANDOM_PROBE": "1", "ATC_CUMULATIVE": "0", "MAX_PACKETS": "0", "SEND_INTERVAL_MS": "1000", "UDP_ACK": "1", "MIX_L": "", "MIX_SHARE": ""}}}
+{"timestamp": "2026-11-12T11:19:45.115299", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 0, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:46.176476", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 1, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:47.248292", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 2, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:48.274789", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 3, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:50.926942", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 3}}
+{"timestamp": "2026-11-12T11:19:54.576328", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 4, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:55.613534", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 5, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:58.946467", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 6, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:19:59.973849", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 7, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:00.999568", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 8, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:02.027070", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 9, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:03.083434", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 10, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:04.135424", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 11, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:05.165123", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 12, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:06.193689", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 13, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:07.220110", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 14, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:08.277817", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 15, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:09.304943", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 16, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:10.331927", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 17, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:11.359596", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 18, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:12.407889", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 19, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:16.236169", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 20, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:17.292608", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 21, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:18.384094", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 22, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:19.411364", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 23, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:20.437461", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 24, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:21.497243", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 25, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:22.567463", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 26, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:25.861946", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 27, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:26.918571", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 28, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:27.946073", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 29, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:28.996712", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 30, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:30.027099", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 31, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:31.055011", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 32, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:33.377997", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 32}}
+{"timestamp": "2026-11-12T11:20:34.441727", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 33, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:35.502333", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 34, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:36.529463", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 35, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:37.559034", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 36, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:38.586240", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 37, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:39.615568", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 38, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:42.744418", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 39, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:43.783345", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 40, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:46.693203", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 40}}
+{"timestamp": "2026-11-12T11:20:47.757568", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 41, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:48.786970", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 42, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:49.814528", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 43, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:50.841619", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 44, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:51.871708", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 45, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:52.929741", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 46, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:53.957037", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 47, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:54.987156", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 48, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:57.296377", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 48}}
+{"timestamp": "2026-11-12T11:20:58.355293", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 49, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:20:59.381647", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 50, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:03.021007", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 51, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:04.048639", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 52, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:06.368333", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 52}}
+{"timestamp": "2026-11-12T11:21:07.448821", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 53, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:08.477045", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 54, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:12.322219", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 55, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:13.363945", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 56, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:14.419550", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 57, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:16.418028", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 57}}
+{"timestamp": "2026-11-12T11:21:17.458600", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 58, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:18.484839", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 59, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:19.516973", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 60, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:21.913533", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 60}}
+{"timestamp": "2026-11-12T11:21:22.942869", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 61, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:24.006448", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 62, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:25.036275", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 63, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:27.835506", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 63}}
+{"timestamp": "2026-11-12T11:21:33.251160", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 63}}
+{"timestamp": "2026-11-12T11:21:34.278624", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 64, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:35.305583", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 65, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:36.332594", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 66, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:37.455011", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 67, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:38.482169", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 68, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:39.509753", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 69, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:40.536528", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 70, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:41.564052", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 71, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:43.784405", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 71}}
+{"timestamp": "2026-11-12T11:21:44.812514", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 72, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:45.839881", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 73, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:46.866079", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 74, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:49.784672", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 74}}
+{"timestamp": "2026-11-12T11:21:50.867011", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 75, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:54.106416", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 76, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:55.141618", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 77, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:56.169369", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 78, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:57.224781", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 79, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:58.253667", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 80, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:21:59.280961", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 81, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:05.946617", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 81}}
+{"timestamp": "2026-11-12T11:22:14.864968", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 81}}
+{"timestamp": "2026-11-12T11:22:18.767710", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 82, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:26.805359", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 83, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:36.083433", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 83}}
+{"timestamp": "2026-11-12T11:22:37.126369", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 84, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:40.600193", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 85, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:41.661657", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 86, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:42.719024", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 87, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:43.754326", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 88, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:44.782811", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 89, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:45.840117", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 90, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:46.867642", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 91, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:47.928986", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 92, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:48.960948", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 93, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:50.023789", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 94, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:51.051126", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 95, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:52.108312", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 96, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:53.136072", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 97, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:54.163492", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 98, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:22:56.357333", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 98}}
+{"timestamp": "2026-11-12T11:23:00.746161", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 98}}
+{"timestamp": "2026-11-12T11:23:01.811903", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 99, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:02.838375", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 100, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:05.414396", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 100}}
+{"timestamp": "2026-11-12T11:23:08.646923", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 101, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:09.719544", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 102, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:10.746620", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 103, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:19.941841", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 104, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:20.969319", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 105, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:21.996165", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 106, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:23.023600", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 107, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:24.050907", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 108, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:25.076926", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 109, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:26.164123", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 110, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:27.191279", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 111, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:29.541981", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 111}}
+{"timestamp": "2026-11-12T11:23:30.578859", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 112, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:31.605122", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 113, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:32.632058", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 114, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:33.659751", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 115, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:34.715375", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 116, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:36.882381", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 116}}
+{"timestamp": "2026-11-12T11:23:37.946348", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 117, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:38.974404", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 118, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:40.001475", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 119, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:41.028629", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 120, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:42.055887", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 121, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:43.111990", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 122, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:44.170545", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 123, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:45.201250", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 124, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:46.228505", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 125, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:47.255479", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 126, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:48.342408", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 127, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:50.911590", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 127}}
+{"timestamp": "2026-11-12T11:23:51.953046", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 128, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:52.982313", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 129, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:54.008255", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 130, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:58.004064", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 131, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:23:59.045885", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 132, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:01.413111", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 132}}
+{"timestamp": "2026-11-12T11:24:02.469640", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 133, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:03.496834", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 134, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:04.524249", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 135, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:05.594700", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 136, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:09.372666", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 137, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:13.263489", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 138, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:14.290141", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 139, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:15.317434", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 140, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:18.656819", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 141, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:19.715727", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 142, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:20.755325", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 143, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:21.797878", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 144, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:22.825655", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 145, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:23.852679", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 146, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:24.909875", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 147, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:25.950110", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 148, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:26.980260", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 149, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:28.014506", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 150, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:29.073246", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 151, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:30.100985", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 152, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:31.128692", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 153, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:32.155853", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 154, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:33.182186", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 155, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:34.209261", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 156, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:38.024947", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 157, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:39.057032", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 158, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:40.087421", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 159, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:41.115172", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 160, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:44.231332", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 161, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:45.259196", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 162, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:48.169272", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 162}}
+{"timestamp": "2026-11-12T11:24:49.248755", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 163, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:50.276246", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 164, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:52.438659", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 164}}
+{"timestamp": "2026-11-12T11:24:53.471637", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 165, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:24:54.499290", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 166, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:02.986516", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 167, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:04.013928", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 168, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:05.066718", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 169, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:06.097427", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 170, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:07.124674", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 171, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:08.152000", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 172, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:09.179136", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 173, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:10.239049", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 174, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:11.266227", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 175, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:12.293521", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 176, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:13.322463", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 177, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:14.350746", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 178, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:15.378063", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 179, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:19.326643", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 180, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:20.353813", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 181, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:23.869454", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 182, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:24.896406", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 183, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:25.924097", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 184, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:26.950985", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 185, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:28.004056", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 186, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:29.034691", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 187, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:32.416396", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 188, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:46.508046", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 188}}
+{"timestamp": "2026-11-12T11:25:47.568861", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 189, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:48.614512", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 190, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:49.642266", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 191, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:50.670308", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 192, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:51.698370", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 193, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:52.755475", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 194, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:53.813725", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 195, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:25:56.399653", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 195}}
+{"timestamp": "2026-11-12T11:25:59.886227", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 196, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:00.913432", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 197, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:01.941621", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 198, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:02.969423", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 199, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:03.996512", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 200, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:05.024777", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 201, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:06.052552", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 202, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:07.079707", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 203, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:10.506780", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 204, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:11.552085", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 205, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:12.578506", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 206, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:13.606075", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 207, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:14.635180", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 208, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:15.699579", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 209, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:16.782329", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 210, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:18.886231", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 210}}
+{"timestamp": "2026-11-12T11:26:19.944406", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 211, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:20.979374", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 212, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:22.009706", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 213, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:23.036830", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 214, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:24.102040", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 215, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:25.144253", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 216, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:26.179666", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 217, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:27.218304", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 218, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:28.256448", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 219, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:29.325155", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 220, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:30.388760", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 221, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:31.423393", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 222, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:32.460155", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 223, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:33.493381", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 224, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:34.559511", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 225, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:35.593894", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 226, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:36.625499", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 227, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:37.662326", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 228, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:38.689595", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 229, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:39.747538", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 230, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:40.774669", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 231, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:41.802417", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 232, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:44.096299", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 232}}
+{"timestamp": "2026-11-12T11:26:45.139403", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 233, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:49.050115", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 234, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:50.078117", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 235, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:51.106136", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 236, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:52.165624", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 237, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:53.201837", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 238, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:54.231740", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 239, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:55.327752", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 240, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:56.358675", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 241, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:26:59.089218", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 241}}
+{"timestamp": "2026-11-12T11:27:00.116838", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 242, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:01.143257", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 243, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:17.820283", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 244, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:18.848997", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 245, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:19.875137", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 246, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:20.902597", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 247, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:21.929436", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 248, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:25.281974", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 249, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:26.309407", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 250, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:27.335960", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 251, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:28.363320", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 252, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:31.159741", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 252}}
+{"timestamp": "2026-11-12T11:27:32.187968", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 253, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:33.215857", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 254, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:34.286360", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 255, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:35.315370", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 256, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:37.465125", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 256}}
+{"timestamp": "2026-11-12T11:27:40.887237", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 257, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:41.914665", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 258, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:42.941587", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 259, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:43.969485", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 260, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:44.996333", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 261, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:46.039551", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 262, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:47.070252", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 263, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:48.097706", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 264, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:49.125729", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 265, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:50.153215", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 266, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:52.808769", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 266}}
+{"timestamp": "2026-11-12T11:27:53.835989", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 267, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:54.862389", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 268, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:55.889911", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 269, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:27:58.572934", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 269}}
+{"timestamp": "2026-11-12T11:27:59.601254", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 270, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:00.628305", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 271, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:01.655913", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 272, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:04.401787", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 272}}
+{"timestamp": "2026-11-12T11:28:05.489933", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 273, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:06.520267", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 274, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:07.549025", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 275, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:08.574746", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 276, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:09.603114", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 277, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:10.662442", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 278, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:11.690542", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 279, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:12.716520", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 280, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:13.742658", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 281, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:14.773573", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 282, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:17.776230", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 282}}
+{"timestamp": "2026-11-12T11:28:18.812854", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 283, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:19.838687", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 284, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:22.406808", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 284}}
+{"timestamp": "2026-11-12T11:28:23.443120", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 285, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:24.500036", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 286, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:25.533244", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 287, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:26.584445", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 288, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:27.618751", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 289, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:28.643731", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 290, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:29.705916", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 291, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:30.733136", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 292, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:31.759566", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 293, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:32.786648", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 294, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:33.813820", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 295, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:34.872116", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 296, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:35.931324", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 297, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:36.960170", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 298, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:38.018012", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 299, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:39.045118", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 300, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:40.071005", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 301, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:42.860677", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 301}}
+{"timestamp": "2026-11-12T11:28:46.608344", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 302, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:47.635363", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 303, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:48.662595", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 304, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:51.635397", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 304}}
+{"timestamp": "2026-11-12T11:28:57.581007", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 304}}
+{"timestamp": "2026-11-12T11:28:58.637700", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 305, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:28:59.688334", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 306, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:00.717845", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 307, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:01.744699", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 308, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:02.771843", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 309, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:03.829886", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 310, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:04.856850", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 311, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:07.594859", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 311}}
+{"timestamp": "2026-11-12T11:29:08.623856", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 312, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:09.651261", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 313, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:10.708197", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 314, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:11.772004", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 315, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:12.800077", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 316, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:13.827520", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 317, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:17.212486", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 318, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:18.239495", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 319, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:19.268075", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 320, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:20.296041", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 321, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:21.323534", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 322, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:22.380619", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 323, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:23.445722", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 324, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:25.845752", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 324}}
+{"timestamp": "2026-11-12T11:29:26.873635", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 325, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:27.901670", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 326, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:30.551697", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 326}}
+{"timestamp": "2026-11-12T11:29:31.579139", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 327, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:32.606707", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 328, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:33.633820", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 329, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:34.662542", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 330, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:36.696694", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 330}}
+{"timestamp": "2026-11-12T11:29:37.724114", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 331, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:38.751242", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 332, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:39.778489", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 333, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:42.652080", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 333}}
+{"timestamp": "2026-11-12T11:29:43.679837", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 334, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:44.745607", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 335, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:45.773132", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 336, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:46.800367", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 337, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:47.858518", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 338, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:51.536355", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 339, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:52.563652", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 340, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:53.591152", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 341, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:54.647701", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 342, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:55.713486", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 343, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:29:59.584377", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 344, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:00.623782", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 345, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:03.588614", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 345}}
+{"timestamp": "2026-11-12T11:30:04.615686", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 346, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:05.641821", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 347, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:06.670148", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 348, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:07.728201", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 349, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:08.755433", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 350, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:09.784122", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 351, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:10.833562", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 352, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:13.125427", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 352}}
+{"timestamp": "2026-11-12T11:30:14.152682", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 353, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:15.180460", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 354, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:16.206713", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 355, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:17.234099", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 356, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:18.261698", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 357, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:19.289824", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 358, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:20.317392", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 359, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:21.374639", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 360, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:22.427692", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 361, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:23.456591", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 362, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:24.483974", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 363, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:25.511455", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 364, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:26.538669", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 365, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:27.566594", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 366, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:28.593938", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 367, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:29.621719", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 368, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:32.919209", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 369, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:33.944905", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 370, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:34.972520", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 371, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:36.030218", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 372, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:39.930438", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 373, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:40.966708", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 374, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:41.994166", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 375, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:43.050751", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 376, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:44.077710", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 377, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:30:45.104966", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 378, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:05.469771", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 379, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:06.499903", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 380, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:07.556585", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 381, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:08.588981", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 382, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:09.618286", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 383, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:10.646090", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 384, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:11.673127", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 385, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:12.729935", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 386, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:13.757622", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 387, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:14.784907", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 388, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:15.811860", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 389, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:16.896821", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 390, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:17.933420", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 391, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:20.742080", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 391}}
+{"timestamp": "2026-11-12T11:31:21.769244", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 392, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:22.795251", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 393, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:23.854754", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 394, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:24.957297", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 395, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:25.995565", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 396, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:27.026169", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 397, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:28.050966", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 398, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:30.641283", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 398}}
+{"timestamp": "2026-11-12T11:31:31.668460", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 399, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:32.694721", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 400, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:33.721725", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 401, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:34.749100", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 402, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:35.775869", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 403, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:36.803121", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 404, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:37.831176", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 405, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:38.887860", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 406, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:39.922232", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 407, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:40.952748", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 408, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:41.980506", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 409, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:44.346967", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 409}}
+{"timestamp": "2026-11-12T11:31:45.406230", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 410, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:47.830089", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 410}}
+{"timestamp": "2026-11-12T11:31:48.858284", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 411, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:49.884501", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 412, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:50.911330", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 413, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:51.967843", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 414, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:54.118983", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 414}}
+{"timestamp": "2026-11-12T11:31:55.145878", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 415, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:56.172080", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 416, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:57.199387", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 417, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:58.290318", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 418, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:31:59.315638", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 419, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:00.373532", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 420, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:01.399795", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 421, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:02.433520", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 422, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:03.522916", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 423, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:06.013578", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 423}}
+{"timestamp": "2026-11-12T11:32:07.081190", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 424, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:09.400118", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 424}}
+{"timestamp": "2026-11-12T11:32:12.502326", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 425, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:16.522012", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 425}}
+{"timestamp": "2026-11-12T11:32:24.619927", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 425}}
+{"timestamp": "2026-11-12T11:32:25.656408", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 426, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:26.684042", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 427, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:27.771369", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 428, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:30.052877", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 428}}
+{"timestamp": "2026-11-12T11:32:31.080190", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 429, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:38.391324", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 430, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:39.441689", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 431, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:42.153812", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 431}}
+{"timestamp": "2026-11-12T11:32:43.185807", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 432, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:44.213782", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 433, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:45.283842", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 434, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:46.310909", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 435, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:48.896990", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 435}}
+{"timestamp": "2026-11-12T11:32:49.924224", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 436, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:53.513299", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 437, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:54.540693", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 438, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:55.567723", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 439, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:32:58.380681", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 439}}
+{"timestamp": "2026-11-12T11:32:59.408186", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 440, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:00.464729", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 441, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:01.491600", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 442, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:02.518991", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 443, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:03.559673", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 444, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:04.630612", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 445, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:05.689306", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 446, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:06.718448", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 447, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:07.745525", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 448, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:10.727368", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 448}}
+{"timestamp": "2026-11-12T11:33:11.757045", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 449, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:12.852066", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 450, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:13.879095", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 451, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:14.906044", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 452, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:15.964283", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 453, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:18.285528", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 453}}
+{"timestamp": "2026-11-12T11:33:19.312549", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 454, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:20.339827", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 455, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:21.366748", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 456, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:22.393996", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 457, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:23.455649", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 458, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:24.500796", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 459, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:25.527965", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 460, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:28.686404", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 461, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:29.713624", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 462, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:30.741384", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 463, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:32.830829", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 463}}
+{"timestamp": "2026-11-12T11:33:33.870076", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 464, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:34.900786", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 465, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:35.964511", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 466, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:36.995142", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 467, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:38.018654", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 468, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:39.045799", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 469, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:40.071366", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 470, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:41.098063", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 471, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:42.124941", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 472, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:43.151053", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 473, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:44.178119", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 474, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:45.205143", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 475, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:46.261707", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 476, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:47.308157", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 477, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:48.338903", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 478, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:52.045596", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 479, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:53.105362", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 480, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:54.136732", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 481, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:55.163895", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 482, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:57.169782", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 482}}
+{"timestamp": "2026-11-12T11:33:58.197992", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 483, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:33:59.284688", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 484, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:00.335879", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 485, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:01.395449", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 486, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:02.423390", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 487, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:03.451781", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 488, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:04.479048", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 489, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:05.507664", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 490, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:06.534879", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 491, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:07.583466", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 492, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:08.614718", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 493, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:09.642275", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 494, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:13.058391", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 495, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:16.883905", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 496, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:17.949391", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 497, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:19.006493", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 498, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:20.033265", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 499, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:21.091521", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 500, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:22.124903", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 501, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:23.155170", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 502, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:24.214030", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 503, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:25.241041", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 504, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:26.268859", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 505, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:27.296315", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 506, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:28.323363", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 507, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:29.379694", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 508, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:30.442049", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 509, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:32.801895", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 509}}
+{"timestamp": "2026-11-12T11:34:33.828785", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 510, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:34.854847", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 511, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:35.882501", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 512, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:38.022621", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 512}}
+{"timestamp": "2026-11-12T11:34:39.080396", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 513, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:40.102563", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 514, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:41.129858", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 515, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:42.156338", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 516, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:45.083066", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 516}}
+{"timestamp": "2026-11-12T11:34:46.110445", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 517, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:47.136594", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 518, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:48.164100", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 519, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:49.191600", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 520, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:50.248438", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 521, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:51.275791", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 522, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:52.302992", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 523, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:53.329022", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 524, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:54.403325", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 525, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:55.461740", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 526, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:56.489455", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 527, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:57.517362", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 528, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:58.548401", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 529, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:34:59.574578", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 530, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:02.740730", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 531, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:03.770144", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 532, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:04.801775", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 533, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:05.829508", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 534, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:06.925062", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 535, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:13.240757", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 535}}
+{"timestamp": "2026-11-12T11:35:14.335124", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 536, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:15.376924", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 537, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:16.403669", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 538, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:17.432040", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 539, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:20.115404", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 539}}
+{"timestamp": "2026-11-12T11:35:21.181863", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 540, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:22.217073", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 541, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:23.279524", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 542, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:24.309258", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 543, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:25.336942", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 544, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:28.797909", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 545, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:32.044621", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 546, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:33.110442", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 547, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:34.169871", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 548, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:35.197051", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 549, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:36.224291", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 550, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:37.251334", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 551, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:40.214973", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 551}}
+{"timestamp": "2026-11-12T11:35:41.272690", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 552, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:42.326914", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 553, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:43.355697", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 554, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:44.383092", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 555, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:45.437818", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 556, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:46.465796", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 557, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:47.492409", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 558, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:48.519796", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 559, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:49.547051", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 560, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:50.609876", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 561, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:35:53.062758", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 561}}
+{"timestamp": "2026-11-12T11:35:56.737305", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 562, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:00.495305", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 563, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:01.553561", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 564, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:02.604494", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 565, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:03.631560", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 566, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:04.659189", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 567, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:05.686559", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 568, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:06.743278", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 569, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:07.771200", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 570, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:09.794956", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 570}}
+{"timestamp": "2026-11-12T11:36:13.843673", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 570}}
+{"timestamp": "2026-11-12T11:36:14.895740", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 571, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:15.952582", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 572, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:16.980033", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 573, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:19.062219", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 573}}
+{"timestamp": "2026-11-12T11:36:20.094127", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 574, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:23.556802", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 575, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:24.632479", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 576, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:25.659607", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 577, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:26.686233", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 578, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:29.943166", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 579, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:33.070163", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 580, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:34.141582", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 581, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:35.199243", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 582, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:36.226872", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 583, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:37.253980", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 584, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:38.281340", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 585, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:39.308918", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 586, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:40.394061", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 587, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:44.163757", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 588, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:45.205539", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 589, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:46.232914", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 590, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:49.690136", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 591, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:50.735296", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 592, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:51.762695", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 593, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:52.791093", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 594, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:53.818802", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 595, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:57.001763", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 596, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:36:58.028939", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 597, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:00.259279", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 597}}
+{"timestamp": "2026-11-12T11:37:01.286581", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 598, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:02.343109", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 599, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:03.370397", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 600, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:04.397704", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 601, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:07.010304", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 601}}
+{"timestamp": "2026-11-12T11:37:08.052742", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 602, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:11.238711", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 603, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:24.189316", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 603}}
+{"timestamp": "2026-11-12T11:37:25.216694", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 604, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:26.274127", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 605, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:27.301327", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 606, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:30.195020", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 606}}
+{"timestamp": "2026-11-12T11:37:31.222997", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 607, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:35.042112", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 608, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:36.071509", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 609, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:38.756261", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 609}}
+{"timestamp": "2026-11-12T11:37:42.432323", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 610, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:43.459103", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 611, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:44.485797", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 612, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:45.542094", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 613, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:48.878731", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 614, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:49.922667", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 615, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:50.979755", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 616, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:53.913752", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 616}}
+{"timestamp": "2026-11-12T11:37:54.941678", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 617, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:55.968425", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 618, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:56.995909", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 619, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:37:58.023141", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 620, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:00.971857", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 620}}
+{"timestamp": "2026-11-12T11:38:06.814881", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 620}}
+{"timestamp": "2026-11-12T11:38:07.842525", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 621, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:08.869345", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 622, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:11.807085", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 622}}
+{"timestamp": "2026-11-12T11:38:12.888221", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 623, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:16.516113", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 624, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:17.566481", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 625, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:18.626683", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 626, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:19.654418", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 627, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:20.681749", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 628, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:22.829213", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 628}}
+{"timestamp": "2026-11-12T11:38:23.856536", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 629, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:24.883909", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 630, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:25.911628", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 631, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:26.939129", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 632, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:28.041896", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 633, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:29.099362", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 634, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:30.138252", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 635, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:33.700369", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 636, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:34.776937", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 637, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:35.832871", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 638, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:39.220065", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 639, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:40.282855", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 640, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:41.328708", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 641, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:42.386550", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 642, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:43.413474", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 643, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:44.441077", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 644, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:45.469339", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 645, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:46.497139", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 646, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:47.575966", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 647, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:48.602468", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 648, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:50.622851", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 648}}
+{"timestamp": "2026-11-12T11:38:51.649251", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 649, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:52.673637", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 650, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:53.730926", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 651, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:57.225757", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 652, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:58.252969", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 653, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:38:59.278729", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 654, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:00.336385", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 655, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:01.392813", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 656, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:02.422113", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 657, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:03.455122", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 658, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:04.482107", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 659, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:05.539055", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 660, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:06.566230", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 661, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:07.616904", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 662, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:08.662246", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 663, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:09.697554", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 664, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:10.755743", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 665, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:11.783213", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 666, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:12.810499", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 667, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:13.836758", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 668, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:14.865141", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 669, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:15.964634", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 670, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:18.545281", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 670}}
+{"timestamp": "2026-11-12T11:39:19.572178", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 671, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:20.644039", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 672, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:21.673268", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 673, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:22.729676", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 674, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:23.757309", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 675, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:26.039999", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 675}}
+{"timestamp": "2026-11-12T11:39:27.073585", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 676, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:28.103953", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 677, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:29.158901", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 678, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:30.186074", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 679, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:31.212056", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 680, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:40.776752", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 681, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:52.167877", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 681}}
+{"timestamp": "2026-11-12T11:39:53.213367", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 682, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:54.239748", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 683, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:39:57.761938", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 684, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:02.782355", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 684}}
+{"timestamp": "2026-11-12T11:40:03.809012", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 685, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:04.837351", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 686, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:05.906708", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 687, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:06.934843", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 688, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:07.962183", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 689, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:12.008224", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 690, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:13.074523", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 691, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:14.102513", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 692, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:15.128488", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 693, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:16.156037", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 694, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:17.213852", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 695, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:21.129734", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 696, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:22.171766", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 697, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:24.459289", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 697}}
+{"timestamp": "2026-11-12T11:40:25.518019", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 698, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:26.546265", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 699, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:27.575095", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 700, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:28.646717", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 701, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:31.407634", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 701}}
+{"timestamp": "2026-11-12T11:40:32.434367", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 702, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:35.235422", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 702}}
+{"timestamp": "2026-11-12T11:40:36.262620", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 703, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:37.290539", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 704, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:38.318101", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 705, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:39.379699", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 706, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:40.406402", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 707, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:41.433139", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 708, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:42.460097", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 709, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:43.486713", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 710, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:44.544316", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 711, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:45.571555", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 712, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:46.598858", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 713, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:47.659363", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 714, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:51.288002", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 715, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:52.315143", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 716, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:53.342561", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 717, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:54.369990", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 718, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:55.397686", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 719, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:56.431421", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 720, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:40:59.389294", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 720}}
+{"timestamp": "2026-11-12T11:41:00.448592", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 721, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:01.487256", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 722, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:02.517208", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 723, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:03.542158", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 724, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:04.569844", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 725, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:08.100271", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 726, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:09.128824", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 727, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:10.156168", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 728, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:11.183504", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 729, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:12.249455", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 730, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:13.298391", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 731, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:14.326017", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 732, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:15.353772", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 733, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:16.381782", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 734, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:17.409085", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 735, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:18.435982", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 736, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:19.462226", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 737, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:20.489342", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 738, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:21.516448", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 739, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:23.912377", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 739}}
+{"timestamp": "2026-11-12T11:41:27.101303", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 740, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:28.128833", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 741, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:30.581214", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 741}}
+{"timestamp": "2026-11-12T11:41:31.638940", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 742, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:32.666577", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 743, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:33.693855", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 744, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:34.721066", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 745, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:35.748476", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 746, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:36.805314", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 747, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:39.390478", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 747}}
+{"timestamp": "2026-11-12T11:41:40.415678", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 748, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:44.452459", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 749, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:45.479715", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 750, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:48.582014", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 751, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:49.621849", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 752, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:52.873949", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 753, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:53.922372", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 754, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:54.946920", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 755, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:55.973791", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 756, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:41:58.120851", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 756}}
+{"timestamp": "2026-11-12T11:41:59.165631", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 757, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:00.192326", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 758, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:01.219225", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 759, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:02.246412", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 760, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:03.272326", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 761, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:04.300110", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 762, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:05.327834", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 763, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:06.354066", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 764, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:07.412745", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 765, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:08.486680", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 766, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:09.514025", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 767, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:10.571303", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 768, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:11.598401", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 769, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:12.625074", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 770, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:13.652366", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 771, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:14.686066", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 772, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:15.749337", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 773, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:16.777116", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 774, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:17.834715", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 775, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:18.862240", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 776, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:21.347395", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 776}}
+{"timestamp": "2026-11-12T11:42:22.383461", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 777, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:23.413689", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 778, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:27.128280", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 779, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:28.163888", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 780, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:31.288974", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 781, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:34.950008", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 782, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:36.009046", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 783, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:37.054038", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 784, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:38.083801", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 785, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:39.112004", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 786, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:40.138979", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 787, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:41.204102", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 788, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:42.248801", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 789, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:43.279583", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 790, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:46.732313", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 791, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:47.810323", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 792, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:48.837697", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 793, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:51.427441", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 793}}
+{"timestamp": "2026-11-12T11:42:54.915612", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 794, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:55.974936", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 795, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:42:57.000127", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 796, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:00.351291", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 797, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:01.380301", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 798, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:02.473619", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 799, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:03.501590", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 800, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:04.560480", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 801, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:05.596808", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 802, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:09.606675", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 803, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:10.642023", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 804, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:11.667892", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 805, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:18.181794", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 805}}
+{"timestamp": "2026-11-12T11:43:19.238347", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 806, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:28.603866", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 807, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:29.658781", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 808, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:30.710648", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 809, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:31.737744", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 810, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:34.621473", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 810}}
+{"timestamp": "2026-11-12T11:43:35.648820", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 811, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:36.705711", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 812, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:37.751169", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 813, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:38.780511", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 814, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:39.805469", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 815, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:40.832548", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 816, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:41.889936", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 817, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:44.281715", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 817}}
+{"timestamp": "2026-11-12T11:43:45.310507", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 818, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:46.350575", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 819, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:47.379865", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 820, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:48.407497", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 821, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:49.435924", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 822, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:51.649461", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 822}}
+{"timestamp": "2026-11-12T11:43:55.458387", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 823, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:56.512050", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 824, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:57.541586", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 825, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:58.598448", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 826, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:43:59.626508", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 827, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:00.653468", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 828, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:01.680785", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 829, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:02.716614", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 830, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:06.286757", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 831, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:07.314392", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 832, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:09.423471", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 832}}
+{"timestamp": "2026-11-12T11:44:10.451043", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 833, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:11.507226", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 834, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:12.534663", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 835, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:13.561877", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 836, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:14.588379", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 837, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:15.638206", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 838, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:16.699940", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 839, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:18.692732", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 839}}
+{"timestamp": "2026-11-12T11:44:19.793422", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 840, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:20.821658", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 841, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:21.849315", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 842, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:22.876478", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 843, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:23.904155", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 844, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:26.154287", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 844}}
+{"timestamp": "2026-11-12T11:44:27.182103", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 845, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:28.209455", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 846, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:29.281021", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 847, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:30.309399", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 848, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:31.366183", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 849, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:32.393400", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 850, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:33.421444", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 851, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:34.448716", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 852, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:35.476379", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 853, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:36.503497", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 854, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:37.533242", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 855, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:38.574472", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 856, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:39.617293", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 857, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:40.646914", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 858, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:41.708385", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 859, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:42.735493", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 860, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:43.762730", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 861, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:44.789871", "event_type": "udp_received", "ip": "198.51.100.1", "data": {"seq": 862, "payload_size": 32, "gap": 0}}
+{"timestamp": "2026-11-12T11:44:47.362393", "event_type": "udp_duplicate", "ip": "198.51.100.1", "data": {"seq": 862}}

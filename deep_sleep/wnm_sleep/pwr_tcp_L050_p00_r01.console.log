@@ -1,0 +1,260 @@
+2026-11-04T01:43:26 
+2026-11-04T01:43:26 Note: This firmware has been built with debug in stop mode enabled.
+2026-11-04T01:43:26 This will impact power consumption and should be disabled for production firmware.
+2026-11-04T01:43:26 
+2026-11-04T01:43:26 
+2026-11-04T01:43:26 Adaptive Transport Example (Built Nov  4 2026 01:21:20)
+2026-11-04T01:43:26 
+2026-11-04T01:43:27 -----------------------------------
+2026-11-04T01:43:27   HW Version:              MM-MM8108-EKH05
+2026-11-04T01:43:27   BCF API version:         13.1.0
+2026-11-04T01:43:27   BCF build version:       f094c89b ee7bb6f118
+2026-11-04T01:43:27   BCF board description:   {"module": "mm8108-mf15457", "s
+2026-11-04T01:43:27   Morselib version:        2.13.1
+2026-11-04T01:43:27   Morse firmware version:  2.0.0
+2026-11-04T01:43:27   Morse chip ID:           0x0809
+2026-11-04T01:43:27   Morse chip name:         MM8108B2
+2026-11-04T01:43:27 -----------------------------------
+2026-11-04T01:43:27 Initialize IPv4 using DHCP...
+2026-11-04T01:43:27 Morse LwIP interface initialised.
+2026-11-04T01:43:27 Attempting to connect to REDACTED-SSID with passphrase REDACTED-PASSPHRASE
+2026-11-04T01:43:27 This may take some time (~10 seconds)
+2026-11-04T01:43:29 WLAN STA connecting
+2026-11-04T01:43:30 WLAN STA connected
+2026-11-04T01:43:30 Morse STA interface up with MAC address 0c:bf:74:00:1f:ed
+2026-11-04T01:43:30       4207 NetIf Link status DOWN
+2026-11-04T01:43:31       5158 NetIf Link status UP
+2026-11-04T01:43:31 DNS server 0: 192.168.12.1
+2026-11-04T01:43:31 Link is up. Time: 5158 ms, IP: 192.168.12.149, Netmask: 255.255.255.0, Gateway: 192.168.12.1, DNS server 0: 192.168.12.1
+2026-11-04T01:43:31 
+2026-11-04T01:43:32 Remote config: applied server-provided overrides from 192.0.2.1:64016 (347 bytes)
+2026-11-04T01:43:32 Send interval 10000 ms
+2026-11-04T01:43:32 ATC: init x=50 L=0.0500 N0=50 calibration_packets=10 use_a_L=0 use_change_detection=1
+2026-11-04T01:43:32 ATC: estimator use_time_estimator=1 est_half_life=20.0 age_half_life=20.0 age_target_factor=2.00 debt_horizon=250.0 debt_credit=0.0 debt_per_class=1 random_probe=1
+2026-11-04T01:43:32 ATC: loss debt horizon=250 credit=0 per_class=1 tcp_failures=0
+2026-11-04T01:43:32 ATC: probe random_probe=1 (UDP floor 1/x=0.0200)
+2026-11-04T01:43:32 ATC: reports cumulative=0
+2026-11-04T01:43:32 UDP socket connected to 192.0.2.1:64015
+2026-11-04T01:43:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=0)
+2026-11-04T01:43:44 SLEEP: settle 80 ms, udp tx 0 ms, enter 56 ms, wake 1627 ms
+2026-11-04T01:44:02 TCP connect to 192.0.2.1:64015 failed (errno 103, seq=1)
+2026-11-04T01:44:12 SLEEP: settle 0 ms, udp tx 0 ms, enter 33 ms, wake 658 ms
+2026-11-04T01:44:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=2)
+2026-11-04T01:44:23 SLEEP: settle 110 ms, udp tx 0 ms, enter 49 ms, wake 735 ms
+2026-11-04T01:44:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=3)
+2026-11-04T01:44:34 SLEEP: settle 90 ms, udp tx 0 ms, enter 52 ms, wake 700 ms
+2026-11-04T01:44:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=4)
+2026-11-04T01:44:45 SLEEP: settle 90 ms, udp tx 0 ms, enter 28 ms, wake 680 ms
+2026-11-04T01:44:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=5)
+2026-11-04T01:44:56 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 701 ms
+2026-11-04T01:44:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=6)
+2026-11-04T01:45:08 SLEEP: settle 90 ms, udp tx 0 ms, enter 32 ms, wake 705 ms
+2026-11-04T01:45:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=7)
+2026-11-04T01:45:19 SLEEP: settle 100 ms, udp tx 0 ms, enter 30 ms, wake 700 ms
+2026-11-04T01:45:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=8)
+2026-11-04T01:45:30 SLEEP: settle 100 ms, udp tx 0 ms, enter 35 ms, wake 623 ms
+2026-11-04T01:45:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=9)
+2026-11-04T01:45:41 SLEEP: settle 70 ms, udp tx 0 ms, enter 70 ms, wake 681 ms
+2026-11-04T01:45:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=10)
+2026-11-04T01:45:51 SLEEP: settle 70 ms, udp tx 0 ms, enter 53 ms, wake 709 ms
+2026-11-04T01:45:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=11)
+2026-11-04T01:46:03 SLEEP: settle 80 ms, udp tx 0 ms, enter 29 ms, wake 669 ms
+2026-11-04T01:46:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=12)
+2026-11-04T01:46:14 SLEEP: settle 90 ms, udp tx 0 ms, enter 32 ms, wake 673 ms
+2026-11-04T01:46:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=13)
+2026-11-04T01:46:25 SLEEP: settle 80 ms, udp tx 0 ms, enter 38 ms, wake 620 ms
+2026-11-04T01:46:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=14)
+2026-11-04T01:46:36 SLEEP: settle 110 ms, udp tx 0 ms, enter 34 ms, wake 709 ms
+2026-11-04T01:46:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=15)
+2026-11-04T01:46:47 SLEEP: settle 90 ms, udp tx 0 ms, enter 32 ms, wake 671 ms
+2026-11-04T01:46:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=16)
+2026-11-04T01:46:58 SLEEP: settle 90 ms, udp tx 0 ms, enter 53 ms, wake 783 ms
+2026-11-04T01:46:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=17)
+2026-11-04T01:47:09 SLEEP: settle 120 ms, udp tx 0 ms, enter 31 ms, wake 648 ms
+2026-11-04T01:47:09 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=18)
+2026-11-04T01:47:20 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 700 ms
+2026-11-04T01:47:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=19)
+2026-11-04T01:47:31 SLEEP: settle 120 ms, udp tx 0 ms, enter 34 ms, wake 656 ms
+2026-11-04T01:47:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=20)
+2026-11-04T01:47:42 SLEEP: settle 120 ms, udp tx 0 ms, enter 23 ms, wake 680 ms
+2026-11-04T01:47:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=21)
+2026-11-04T01:47:53 SLEEP: settle 110 ms, udp tx 0 ms, enter 30 ms, wake 709 ms
+2026-11-04T01:47:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=22)
+2026-11-04T01:48:04 SLEEP: settle 100 ms, udp tx 0 ms, enter 32 ms, wake 718 ms
+2026-11-04T01:48:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=23)
+2026-11-04T01:48:15 SLEEP: settle 110 ms, udp tx 0 ms, enter 24 ms, wake 659 ms
+2026-11-04T01:48:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=24)
+2026-11-04T01:48:26 SLEEP: settle 110 ms, udp tx 0 ms, enter 33 ms, wake 655 ms
+2026-11-04T01:48:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=25)
+2026-11-04T01:48:38 SLEEP: settle 110 ms, udp tx 0 ms, enter 28 ms, wake 762 ms
+2026-11-04T01:48:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=26)
+2026-11-04T01:48:49 SLEEP: settle 90 ms, udp tx 0 ms, enter 32 ms, wake 663 ms
+2026-11-04T01:48:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=27)
+2026-11-04T01:49:00 SLEEP: settle 90 ms, udp tx 0 ms, enter 41 ms, wake 717 ms
+2026-11-04T01:49:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=28)
+2026-11-04T01:49:12 SLEEP: settle 90 ms, udp tx 0 ms, enter 140 ms, wake 704 ms
+2026-11-04T01:49:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=29)
+2026-11-04T01:49:22 SLEEP: settle 90 ms, udp tx 0 ms, enter 32 ms, wake 744 ms
+2026-11-04T01:49:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=30)
+2026-11-04T01:49:34 SLEEP: settle 90 ms, udp tx 0 ms, enter 31 ms, wake 672 ms
+2026-11-04T01:49:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=31)
+2026-11-04T01:49:45 SLEEP: settle 120 ms, udp tx 0 ms, enter 32 ms, wake 638 ms
+2026-11-04T01:49:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=32)
+2026-11-04T01:49:56 SLEEP: settle 110 ms, udp tx 0 ms, enter 29 ms, wake 654 ms
+2026-11-04T01:49:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=33)
+2026-11-04T01:50:07 SLEEP: settle 110 ms, udp tx 0 ms, enter 100 ms, wake 706 ms
+2026-11-04T01:50:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=34)
+2026-11-04T01:50:18 SLEEP: settle 80 ms, udp tx 0 ms, enter 40 ms, wake 729 ms
+2026-11-04T01:50:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=35)
+2026-11-04T01:50:29 SLEEP: settle 110 ms, udp tx 0 ms, enter 31 ms, wake 655 ms
+2026-11-04T01:50:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=36)
+2026-11-04T01:50:40 SLEEP: settle 110 ms, udp tx 0 ms, enter 26 ms, wake 679 ms
+2026-11-04T01:50:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=37)
+2026-11-04T01:50:51 SLEEP: settle 110 ms, udp tx 0 ms, enter 30 ms, wake 652 ms
+2026-11-04T01:50:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=38)
+2026-11-04T01:51:03 SLEEP: settle 90 ms, udp tx 0 ms, enter 30 ms, wake 704 ms
+2026-11-04T01:51:03 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=39)
+2026-11-04T01:51:14 SLEEP: settle 110 ms, udp tx 0 ms, enter 26 ms, wake 693 ms
+2026-11-04T01:51:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=40)
+2026-11-04T01:51:25 SLEEP: settle 110 ms, udp tx 0 ms, enter 30 ms, wake 782 ms
+2026-11-04T01:51:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=41)
+2026-11-04T01:51:36 SLEEP: settle 80 ms, udp tx 0 ms, enter 33 ms, wake 738 ms
+2026-11-04T01:51:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=42)
+2026-11-04T01:51:47 SLEEP: settle 91 ms, udp tx 0 ms, enter 30 ms, wake 704 ms
+2026-11-04T01:51:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=43)
+2026-11-04T01:51:58 SLEEP: settle 90 ms, udp tx 0 ms, enter 52 ms, wake 709 ms
+2026-11-04T01:51:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=44)
+2026-11-04T01:52:09 SLEEP: settle 100 ms, udp tx 0 ms, enter 46 ms, wake 774 ms
+2026-11-04T01:52:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=45)
+2026-11-04T01:52:20 SLEEP: settle 110 ms, udp tx 0 ms, enter 31 ms, wake 702 ms
+2026-11-04T01:52:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=46)
+2026-11-04T01:52:31 SLEEP: settle 111 ms, udp tx 0 ms, enter 86 ms, wake 680 ms
+2026-11-04T01:52:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=47)
+2026-11-04T01:52:42 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 702 ms
+2026-11-04T01:52:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=48)
+2026-11-04T01:52:53 SLEEP: settle 80 ms, udp tx 0 ms, enter 40 ms, wake 629 ms
+2026-11-04T01:52:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=49)
+2026-11-04T01:53:04 SLEEP: settle 120 ms, udp tx 0 ms, enter 34 ms, wake 658 ms
+2026-11-04T01:53:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=50)
+2026-11-04T01:53:16 SLEEP: settle 110 ms, udp tx 0 ms, enter 26 ms, wake 678 ms
+2026-11-04T01:53:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=51)
+2026-11-04T01:53:27 SLEEP: settle 110 ms, udp tx 0 ms, enter 49 ms, wake 678 ms
+2026-11-04T01:53:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=52)
+2026-11-04T01:53:38 SLEEP: settle 110 ms, udp tx 0 ms, enter 31 ms, wake 715 ms
+2026-11-04T01:53:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=53)
+2026-11-04T01:53:49 SLEEP: settle 110 ms, udp tx 0 ms, enter 31 ms, wake 680 ms
+2026-11-04T01:53:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=54)
+2026-11-04T01:54:00 SLEEP: settle 120 ms, udp tx 0 ms, enter 29 ms, wake 670 ms
+2026-11-04T01:54:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=55)
+2026-11-04T01:54:11 SLEEP: settle 71 ms, udp tx 0 ms, enter 49 ms, wake 714 ms
+2026-11-04T01:54:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=56)
+2026-11-04T01:54:22 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 633 ms
+2026-11-04T01:54:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=57)
+2026-11-04T01:54:33 SLEEP: settle 80 ms, udp tx 0 ms, enter 40 ms, wake 654 ms
+2026-11-04T01:54:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=58)
+2026-11-04T01:54:44 SLEEP: settle 90 ms, udp tx 0 ms, enter 28 ms, wake 673 ms
+2026-11-04T01:54:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=59)
+2026-11-04T01:54:55 SLEEP: settle 90 ms, udp tx 0 ms, enter 40 ms, wake 700 ms
+2026-11-04T01:54:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=60)
+2026-11-04T01:55:06 SLEEP: settle 70 ms, udp tx 0 ms, enter 43 ms, wake 700 ms
+2026-11-04T01:55:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=61)
+2026-11-04T01:55:17 SLEEP: settle 90 ms, udp tx 0 ms, enter 40 ms, wake 699 ms
+2026-11-04T01:55:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=62)
+2026-11-04T01:55:29 SLEEP: settle 80 ms, udp tx 0 ms, enter 26 ms, wake 696 ms
+2026-11-04T01:55:29 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=63)
+2026-11-04T01:55:40 SLEEP: settle 90 ms, udp tx 0 ms, enter 52 ms, wake 694 ms
+2026-11-04T01:55:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=64)
+2026-11-04T01:55:50 SLEEP: settle 70 ms, udp tx 0 ms, enter 46 ms, wake 648 ms
+2026-11-04T01:55:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=65)
+2026-11-04T01:56:01 SLEEP: settle 90 ms, udp tx 0 ms, enter 52 ms, wake 697 ms
+2026-11-04T01:56:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=66)
+2026-11-04T01:56:12 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 697 ms
+2026-11-04T01:56:13 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=67)
+2026-11-04T01:56:24 SLEEP: settle 90 ms, udp tx 0 ms, enter 111 ms, wake 619 ms
+2026-11-04T01:56:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=68)
+2026-11-04T01:56:35 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 727 ms
+2026-11-04T01:56:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=69)
+2026-11-04T01:56:46 SLEEP: settle 110 ms, udp tx 0 ms, enter 30 ms, wake 715 ms
+2026-11-04T01:56:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=70)
+2026-11-04T01:56:57 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 701 ms
+2026-11-04T01:56:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=71)
+2026-11-04T01:57:08 SLEEP: settle 80 ms, udp tx 0 ms, enter 51 ms, wake 655 ms
+2026-11-04T01:57:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=72)
+2026-11-04T01:57:19 SLEEP: settle 100 ms, udp tx 0 ms, enter 27 ms, wake 704 ms
+2026-11-04T01:57:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=73)
+2026-11-04T01:57:30 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 694 ms
+2026-11-04T01:57:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=74)
+2026-11-04T01:57:41 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 702 ms
+2026-11-04T01:57:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=75)
+2026-11-04T01:57:52 SLEEP: settle 80 ms, udp tx 0 ms, enter 33 ms, wake 660 ms
+2026-11-04T01:57:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=76)
+2026-11-04T01:58:03 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 698 ms
+2026-11-04T01:58:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=77)
+2026-11-04T01:58:14 SLEEP: settle 80 ms, udp tx 0 ms, enter 41 ms, wake 704 ms
+2026-11-04T01:58:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=78)
+2026-11-04T01:58:26 SLEEP: settle 110 ms, udp tx 0 ms, enter 24 ms, wake 694 ms
+2026-11-04T01:58:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=79)
+2026-11-04T01:58:37 SLEEP: settle 110 ms, udp tx 0 ms, enter 32 ms, wake 710 ms
+2026-11-04T01:58:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=80)
+2026-11-04T01:58:48 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 656 ms
+2026-11-04T01:58:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=81)
+2026-11-04T01:58:59 SLEEP: settle 130 ms, udp tx 0 ms, enter 27 ms, wake 658 ms
+2026-11-04T01:58:59 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=82)
+2026-11-04T01:59:10 SLEEP: settle 130 ms, udp tx 0 ms, enter 24 ms, wake 727 ms
+2026-11-04T01:59:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=83)
+2026-11-04T01:59:21 SLEEP: settle 110 ms, udp tx 0 ms, enter 33 ms, wake 655 ms
+2026-11-04T01:59:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=84)
+2026-11-04T01:59:32 SLEEP: settle 120 ms, udp tx 0 ms, enter 31 ms, wake 777 ms
+2026-11-04T01:59:33 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=85)
+2026-11-04T01:59:43 SLEEP: settle 70 ms, udp tx 0 ms, enter 64 ms, wake 702 ms
+2026-11-04T01:59:43 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=86)
+2026-11-04T01:59:54 SLEEP: settle 90 ms, udp tx 0 ms, enter 31 ms, wake 756 ms
+2026-11-04T01:59:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=87)
+2026-11-04T02:00:05 SLEEP: settle 70 ms, udp tx 0 ms, enter 31 ms, wake 660 ms
+2026-11-04T02:00:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=88)
+2026-11-04T02:00:16 SLEEP: settle 110 ms, udp tx 0 ms, enter 23 ms, wake 614 ms
+2026-11-04T02:00:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=89)
+2026-11-04T02:00:27 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 655 ms
+2026-11-04T02:00:28 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=90)
+2026-11-04T02:00:38 SLEEP: settle 110 ms, udp tx 0 ms, enter 27 ms, wake 643 ms
+2026-11-04T02:00:39 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=91)
+2026-11-04T02:00:49 SLEEP: settle 90 ms, udp tx 0 ms, enter 52 ms, wake 737 ms
+2026-11-04T02:00:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=92)
+2026-11-04T02:01:00 SLEEP: settle 130 ms, udp tx 0 ms, enter 99 ms, wake 629 ms
+2026-11-04T02:01:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=93)
+2026-11-04T02:01:12 SLEEP: settle 90 ms, udp tx 0 ms, enter 31 ms, wake 609 ms
+2026-11-04T02:01:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=94)
+2026-11-04T02:01:23 SLEEP: settle 110 ms, udp tx 0 ms, enter 22 ms, wake 698 ms
+2026-11-04T02:01:23 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=95)
+2026-11-04T02:01:34 SLEEP: settle 130 ms, udp tx 0 ms, enter 24 ms, wake 694 ms
+2026-11-04T02:01:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=96)
+2026-11-04T02:01:45 SLEEP: settle 100 ms, udp tx 0 ms, enter 30 ms, wake 673 ms
+2026-11-04T02:01:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=97)
+2026-11-04T02:01:56 SLEEP: settle 70 ms, udp tx 0 ms, enter 83 ms, wake 704 ms
+2026-11-04T02:01:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=98)
+2026-11-04T02:02:07 SLEEP: settle 110 ms, udp tx 0 ms, enter 33 ms, wake 721 ms
+2026-11-04T02:02:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=99)
+2026-11-04T02:02:18 SLEEP: settle 80 ms, udp tx 0 ms, enter 41 ms, wake 708 ms
+2026-11-04T02:02:19 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=100)
+2026-11-04T02:02:29 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 708 ms
+2026-11-04T02:02:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=101)
+2026-11-04T02:02:41 SLEEP: settle 90 ms, udp tx 0 ms, enter 30 ms, wake 694 ms
+2026-11-04T02:02:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=102)
+2026-11-04T02:02:53 SLEEP: settle 70 ms, udp tx 0 ms, enter 44 ms, wake 699 ms
+2026-11-04T02:02:53 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=103)
+2026-11-04T02:03:04 SLEEP: settle 100 ms, udp tx 0 ms, enter 33 ms, wake 704 ms
+2026-11-04T02:03:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=104)
+2026-11-04T02:03:15 SLEEP: settle 120 ms, udp tx 0 ms, enter 35 ms, wake 670 ms
+2026-11-04T02:03:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=105)
+2026-11-04T02:03:26 SLEEP: settle 110 ms, udp tx 0 ms, enter 23 ms, wake 705 ms
+2026-11-04T02:03:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=106)
+2026-11-04T02:03:37 SLEEP: settle 80 ms, udp tx 0 ms, enter 34 ms, wake 660 ms
+2026-11-04T02:03:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=107)
+2026-11-04T02:03:48 SLEEP: settle 70 ms, udp tx 0 ms, enter 45 ms, wake 701 ms
+2026-11-04T02:03:49 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=108)
+2026-11-04T02:03:59 SLEEP: settle 140 ms, udp tx 0 ms, enter 53 ms, wake 670 ms
+2026-11-04T02:04:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=109)
+2026-11-04T02:04:11 SLEEP: settle 70 ms, udp tx 0 ms, enter 34 ms, wake 688 ms
+2026-11-04T02:04:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=110)
+2026-11-04T02:04:22 SLEEP: settle 80 ms, udp tx 0 ms, enter 35 ms, wake 643 ms
+2026-11-04T02:04:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=111)

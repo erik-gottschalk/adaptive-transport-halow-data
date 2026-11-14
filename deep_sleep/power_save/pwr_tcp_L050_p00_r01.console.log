@@ -1,0 +1,163 @@
+2026-11-04T02:48:24 UDP demo packet (raw frame) sent to 192.0.2.1:64015 (32 bytes, seq=129)
+2026-11-04T02:48:24 
+2026-11-04T02:48:24 Note: This firmware has been built with debug in stop mode enabled.
+2026-11-04T02:48:24 This will impact power consumption and should be disabled for production firmware.
+2026-11-04T02:48:24 
+2026-11-04T02:48:24 
+2026-11-04T02:48:24 Adaptive Transport Example (Built Nov  4 2026 02:26:18)
+2026-11-04T02:48:24 
+2026-11-04T02:48:25 -----------------------------------
+2026-11-04T02:48:25   HW Version:              MM-MM8108-EKH05
+2026-11-04T02:48:25   BCF API version:         13.1.0
+2026-11-04T02:48:25   BCF build version:       f094c89b ee7bb6f118
+2026-11-04T02:48:25   BCF board description:   {"module": "mm8108-mf15457", "s
+2026-11-04T02:48:25   Morselib version:        2.13.1
+2026-11-04T02:48:25   Morse firmware version:  2.0.0
+2026-11-04T02:48:25   Morse chip ID:           0x0809
+2026-11-04T02:48:25   Morse chip name:         MM8108B2
+2026-11-04T02:48:25 -----------------------------------
+2026-11-04T02:48:25 Initialize IPv4 using DHCP...
+2026-11-04T02:48:25 Morse LwIP interface initialised.
+2026-11-04T02:48:25 Attempting to connect to REDACTED-SSID with passphrase REDACTED-PASSPHRASE
+2026-11-04T02:48:25 This may take some time (~10 seconds)
+2026-11-04T02:48:27 WLAN STA connecting
+2026-11-04T02:48:28 WLAN STA connected
+2026-11-04T02:48:28 Morse STA interface up with MAC address 0c:bf:74:00:1f:ed
+2026-11-04T02:48:28       4199 NetIf Link status DOWN
+2026-11-04T02:48:29       5141 NetIf Link status UP
+2026-11-04T02:48:29 DNS server 0: 192.168.12.1
+2026-11-04T02:48:29 Link is up. Time: 5141 ms, IP: 192.168.12.149, Netmask: 255.255.255.0, Gateway: 192.168.12.1, DNS server 0: 192.168.12.1
+2026-11-04T02:48:29 
+2026-11-04T02:48:30 Remote config: applied server-provided overrides from 192.0.2.1:64016 (347 bytes)
+2026-11-04T02:48:30 Send interval 10000 ms
+2026-11-04T02:48:30 ATC: init x=50 L=0.0500 N0=50 calibration_packets=10 use_a_L=0 use_change_detection=1
+2026-11-04T02:48:30 ATC: estimator use_time_estimator=1 est_half_life=20.0 age_half_life=20.0 age_target_factor=2.00 debt_horizon=250.0 debt_credit=0.0 debt_per_class=1 random_probe=1
+2026-11-04T02:48:30 ATC: loss debt horizon=250 credit=0 per_class=1 tcp_failures=0
+2026-11-04T02:48:30 ATC: probe random_probe=1 (UDP floor 1/x=0.0200)
+2026-11-04T02:48:30 ATC: reports cumulative=0
+2026-11-04T02:48:30 UDP socket connected to 192.0.2.1:64015
+2026-11-04T02:48:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=0)
+2026-11-04T02:48:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=1)
+2026-11-04T02:48:50 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=2)
+2026-11-04T02:49:00 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=3)
+2026-11-04T02:49:10 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=4)
+2026-11-04T02:49:20 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=5)
+2026-11-04T02:49:30 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=6)
+2026-11-04T02:49:40 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=7)
+2026-11-04T02:49:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=8)
+2026-11-04T02:50:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=9)
+2026-11-04T02:50:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=10)
+2026-11-04T02:50:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=11)
+2026-11-04T02:50:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=12)
+2026-11-04T02:50:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=13)
+2026-11-04T02:50:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=14)
+2026-11-04T02:51:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=15)
+2026-11-04T02:51:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=16)
+2026-11-04T02:51:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=17)
+2026-11-04T02:51:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=18)
+2026-11-04T02:51:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=19)
+2026-11-04T02:51:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=20)
+2026-11-04T02:52:01 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=21)
+2026-11-04T02:52:11 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=22)
+2026-11-04T02:52:21 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=23)
+2026-11-04T02:52:31 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=24)
+2026-11-04T02:52:41 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=25)
+2026-11-04T02:52:51 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=26)
+2026-11-04T02:53:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=27)
+2026-11-04T02:53:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=28)
+2026-11-04T02:53:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=29)
+2026-11-04T02:53:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=30)
+2026-11-04T02:53:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=31)
+2026-11-04T02:53:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=32)
+2026-11-04T02:54:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=33)
+2026-11-04T02:54:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=34)
+2026-11-04T02:54:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=35)
+2026-11-04T02:54:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=36)
+2026-11-04T02:54:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=37)
+2026-11-04T02:54:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=38)
+2026-11-04T02:55:02 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=39)
+2026-11-04T02:55:12 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=40)
+2026-11-04T02:55:22 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=41)
+2026-11-04T02:55:32 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=42)
+2026-11-04T02:55:42 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=43)
+2026-11-04T02:55:52 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=44)
+2026-11-04T02:56:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=45)
+2026-11-04T02:56:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=46)
+2026-11-04T02:56:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=47)
+2026-11-04T02:56:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=48)
+2026-11-04T02:56:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=49)
+2026-11-04T02:56:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=50)
+2026-11-04T02:57:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=51)
+2026-11-04T02:57:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=52)
+2026-11-04T02:57:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=53)
+2026-11-04T02:57:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=54)
+2026-11-04T02:57:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=55)
+2026-11-04T02:57:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=56)
+2026-11-04T02:58:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=57)
+2026-11-04T02:58:14 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=58)
+2026-11-04T02:58:24 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=59)
+2026-11-04T02:58:34 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=60)
+2026-11-04T02:58:44 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=61)
+2026-11-04T02:58:54 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=62)
+2026-11-04T02:59:04 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=63)
+2026-11-04T02:59:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=64)
+2026-11-04T02:59:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=65)
+2026-11-04T02:59:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=66)
+2026-11-04T02:59:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=67)
+2026-11-04T02:59:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=68)
+2026-11-04T03:00:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=69)
+2026-11-04T03:00:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=70)
+2026-11-04T03:00:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=71)
+2026-11-04T03:00:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=72)
+2026-11-04T03:00:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=73)
+2026-11-04T03:00:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=74)
+2026-11-04T03:01:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=75)
+2026-11-04T03:01:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=76)
+2026-11-04T03:01:25 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=77)
+2026-11-04T03:01:35 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=78)
+2026-11-04T03:01:45 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=79)
+2026-11-04T03:01:55 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=80)
+2026-11-04T03:02:05 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=81)
+2026-11-04T03:02:15 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=82)
+2026-11-04T03:02:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=83)
+2026-11-04T03:02:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=84)
+2026-11-04T03:02:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=85)
+2026-11-04T03:02:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=86)
+2026-11-04T03:03:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=87)
+2026-11-04T03:03:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=88)
+2026-11-04T03:03:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=89)
+2026-11-04T03:03:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=90)
+2026-11-04T03:03:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=91)
+2026-11-04T03:03:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=92)
+2026-11-04T03:04:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=93)
+2026-11-04T03:04:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=94)
+2026-11-04T03:04:26 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=95)
+2026-11-04T03:04:36 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=96)
+2026-11-04T03:04:46 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=97)
+2026-11-04T03:04:56 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=98)
+2026-11-04T03:05:06 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=99)
+2026-11-04T03:05:16 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=100)
+2026-11-04T03:05:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=101)
+2026-11-04T03:05:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=102)
+2026-11-04T03:05:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=103)
+2026-11-04T03:05:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=104)
+2026-11-04T03:06:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=105)
+2026-11-04T03:06:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=106)
+2026-11-04T03:06:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=107)
+2026-11-04T03:06:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=108)
+2026-11-04T03:06:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=109)
+2026-11-04T03:06:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=110)
+2026-11-04T03:07:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=111)
+2026-11-04T03:07:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=112)
+2026-11-04T03:07:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=113)
+2026-11-04T03:07:37 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=114)
+2026-11-04T03:07:47 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=115)
+2026-11-04T03:07:57 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=116)
+2026-11-04T03:08:07 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=117)
+2026-11-04T03:08:17 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=118)
+2026-11-04T03:08:27 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=119)
+2026-11-04T03:08:38 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=120)
+2026-11-04T03:08:48 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=121)
+2026-11-04T03:08:58 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=122)
+2026-11-04T03:09:08 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=123)
+2026-11-04T03:09:18 TCP demo packet sent to 192.0.2.1:64015 (32 bytes, expected_udp=0, seq=124)
